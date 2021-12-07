@@ -1,7 +1,7 @@
 # awmsc2022
 Wednesday Assignment M.Sc. Group 2021-2022
 
-Table of Contents
+## Table of Contents
 
        Table of Contents
         Preamble
@@ -16,24 +16,31 @@ Table of Contents
         Tenants of Design
         Social Contract
 
-#Preamble
+## Preamble
 
 This is the online repository for the <<Team Name>>. Summary of project requirements should go here.
 
 
 Our product will be delivered using an Agile methodology that embraces the DevOps culture. Please note that our culture embraces change and these documents are treated as living, breathing artefacts that will be continuously updated.
-Product Owner
+
+### Scrum Master
+<>
+
+### Product Owner
+<>
+
+### Team Members
+<<List each team member on a separate line>>
 
 Lecturer: <<>>
-Team Members
-<<List each team member on a separate line>>
+
   
-  
-Project Deadline
+### Project Deadline
 <<date and time>>
 Refer to Blackboard for the most up to date information on deadlines.
   
-Project Specification  
+## Project Specification  
+<!-- <team must agree specifications here - below are samples for discussion purposes>     -->
     Clean and simple design
     User access levels (client, administrator)
     Includes at least one self developed api and one webservice
@@ -46,27 +53,29 @@ Project Specification
     Named queries and database triggers for security
     Regex for cleansing and validation of data before sending to the database.
 
-#Useful Links
+## Useful Links
 
     DC Slack: <<add link to the slack channel here>>
     Jira: 
     GitHub: 
     Project close out presentation: 
 
+### More Information
 For more information visit our other sections
-Section 	Description
-Process 	Describes the companies process
-Project Log 	Log of project activities
-Costings 	Overview of the project cost
-Architecture 	Outlines the architecture
-Environments 	Overview of the environment set-up
-DR Plan 	Disaster Recovery Plan and procedures
-Requirements 	Overview of the requirements for the project
-SLAs 	Service level agreements
-Risk Management 	How we manage risk
-Security 	Overview of security
-Project Log 	Team log for the project
-Risk Register
+Section     Description
+Process     Describes the companies process
+Project Log     Log of project activities
+Costings    Overview of the project cost
+Architecture    Outlines the architecture
+Environments    Overview of the environment set-up
+DR Plan     Disaster Recovery Plan and procedures
+Requirements    Overview of the requirements for the project
+SLAs    Service level agreements
+Risk Management     How we manage risk
+Security    Overview of security
+Project Log     Team log for the project
+
+## Risk Register
 
 These are the current Risks on the project, re-aligned on a weekly basis
 
@@ -78,14 +87,14 @@ These are the current Risks on the project, re-aligned on a weekly basis
     Talk of the company being bought out has raised concerns
     Lack of rights for toolsets chosen has hindered progress and ability to deliver
 
-Tenants of Design
-
+## Tenants of Design
+<pick from the sample sections below and add your own>
     Dedication to clean, secure, performant and self documented code
         code Frameworks used
         code coverage tool used
         Secure code: Regex for cleansing and validation, Named queries and database triggers
         performance testing tool to be used
-    Documentation / code commenting (javadoc)/seperate branch
+    Documentation / code commenting (javadoc)/separate branch
     Datastore for persistance
     Testing:
         Unit testing
@@ -101,9 +110,9 @@ Tenants of Design
         version/release management
     Agile project management methods/principles (jira)
 
-Social Contract
+## Social Contract
 
-Meetings
+### Meetings
 
     Stand-ups will occur on <<Day(s) and time>>.
     The order that people give their updates will be based on <<define the order>> of those present at the meeting.
@@ -122,7 +131,7 @@ Meetings
     Keep your language and tone professional at all times.
     Be honest.
 
-Communication
+### Communication
 
     << ?>> is the preferred method of communication.
     If a demonstration is required use << ?>>, record the session and upload to the Slack channel.
@@ -147,7 +156,7 @@ Communication
     Don't be afraid to give constructive critism, as long as it is constructive.
     Solve roadblocks within the team. If the impediment can’t be solved within the team then give it to the Scrum Master.
 
-Other
+## Other
 
     Sprints will start <<check with lecturer>>.
     The Scrum Master role rotates each week, the schedule is available on the on the process section
@@ -155,7 +164,10 @@ Other
     Jira will be used for task management and planning.
     Each member of the team will work <<? story points>> per week, unless they are on vacation.
 
-Estimating Story Points Within Jira
+### Branching Strategy
+
+
+### Estimating Story Points Within Jira
 
 The teams team's velocity is calculated by dividing the the number of points burned each sprint divided by no of sprints. The Velocity chart from Jira (below) is used for this calculation.
 
