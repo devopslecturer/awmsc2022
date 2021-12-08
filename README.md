@@ -7,14 +7,14 @@ Wednesday Assignment M.Sc. Group 2021-2022
   * [Preamble] (#preamble)
     + [Product Owner] (#product-owner)
     + [Rockstars] (#rockstars)
-  * Project Deadline (#project-deadline)
-  * Project Specification (#project-specification)
-  * Considerations (#considerations)
-  * Useful Links (#useful-links)
+  * [Project Deadline] (#project-deadline)
+  * [Project Specification] (#project-specification)
+  * [Considerations] (#considerations)
+  * [Useful Links] (#useful-links)
     + [For more information visit our other sections] (#more-info)
-  * Risk Register (#risk-register)
-  * Tenants of Design (#tenants-of-design)
-  * Social Contract (#social-contract)
+  * [Risk Register] (#risk-register)
+  * [Tenants of Design] (#tenants-of-design)
+  * [Social Contract] (#social-contract)
 
 ## Preamble
 
@@ -67,7 +67,7 @@ For more information visit our other sections
 | Process  | Describes the companies process  |
 | Project Log  | Log of project activities  |
 | Costings  | Overview of the project cost  |
-|   | Outlines the architecture  |
+|  Architecture | Outlines the architecture  |
 | Environments  | Overview of the environment set-up  |
 | DR Plan  | Disaster Recovery Plan and procedures  |
 | Requirements  | Overview of the requirements for the project  |
