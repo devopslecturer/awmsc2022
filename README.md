@@ -3,18 +3,18 @@ Wednesday Assignment M.Sc. Group 2021-2022
 
 ## Table of Contents
 
-    * [Table of Contents] (#table-of-contents)
-    * [Preamble] (#preamble)
-        + [Product Owner] (#product-owner)
-        + [Rockstars] (#rockstars)
-        * [Project Deadline] (#project-deadline)
-    * [Project Specification] (#project-specification)
-    * [Considerations] (#considerations)
-    * [Useful Links] (#useful-links)
-        + [For more information visit our other sections] (#more-info)
-    * [Risk Register] (#risk-register)
-    * [Tenants of Design] (#tenants-of-design)
-    * [Social Contract] (#social-contract)
+  * [Table of Contents] (#table-of-contents)
+  * [Preamble] (#preamble)
+    + [Product Owner] (#product-owner)
+    + [Rockstars] (#rockstars)
+  * [Project Deadline] (#project-deadline)
+  * [Project Specification] (#project-specification)
+  * [Considerations] (#considerations)
+  * [Useful Links] (#useful-links)
+    + [For more information visit our other sections] (#more-info)
+  * [Risk Register] (#risk-register)
+  * [Tenants of Design] (#tenants-of-design)
+  * [Social Contract] (#social-contract)
 
 ## Preamble
 
