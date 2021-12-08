@@ -3,18 +3,18 @@ Wednesday Assignment M.Sc. Group 2021-2022
 
 ## Table of Contents
 
-  * [Table of Contents] (#table-of-contents)
-  * [Preamble] (#preamble)
-    + [Product Owner] (#product-owner)
-    + [Rockstars] (#rockstars)
-  * [Project Deadline] (#project-deadline)
-  * [Project Specification] (#project-specification)
-  * [Considerations] (#considerations)
-  * [Useful Links] (#useful-links)
-    + [For more information visit our other sections] (#more-info)
-  * [Risk Register] (#risk-register)
-  * [Tenants of Design] (#tenants-of-design)
-  * [Social Contract] (#social-contract)
+  * [Table of Contents](#table-of-contents)
+  * [Preamble](#preamble)
+    + [Scrum Master](#scrum-master)
+    + [Product Owner](#product-owner)
+  * [Project Deadline](#project-deadline)
+  * [Project Specification](#project-specification)
+  * [Considerations](#considerations)
+  * [Useful Links](#useful-links)
+  * [Risk Register](#risk-register)
+  * [Tenants of Design](#tenants-of-design)
+  * [Social Contract](#social-contract)
+  * [Branching Strategy](#branching-strategy)
 
 ## Preamble
 
@@ -165,7 +165,7 @@ These are the current Risks on the project, re-aligned on a weekly basis
     Jira will be used for task management and planning.
     Each member of the team will work <<? story points>> per week, unless they are on vacation.
 
-### Branching Strategy
+## Branching Strategy
 << add branching strategy here >>
 
 ### Estimating Story Points Within Jira
