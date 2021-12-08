@@ -3,18 +3,18 @@ Wednesday Assignment M.Sc. Group 2021-2022
 
 ## Table of Contents
 
-       Table of Contents
-        Preamble
-            Product Owner
-            Rockstars
-        Project Deadline
-        Project Specification
-        Considerations
-        Useful Links
-            For more information visit our other sections
-        Risk Register
-        Tenants of Design
-        Social Contract
+  * [Table of Contents] (#table-of-contents)
+  * [Preamble] (#preamble)
+    + [Product Owner] (#product-owner)
+    + [Rockstars] (#rockstars)
+  * Project Deadline (#project-deadline)
+  * Project Specification (#project-specification)
+  * Considerations (#considerations)
+  * Useful Links (#useful-links)
+    + [For more information visit our other sections] (#more-info)
+  * Risk Register (#risk-register)
+  * Tenants of Design (#tenants-of-design)
+  * Social Contract (#social-contract)
 
 ## Preamble
 
@@ -62,18 +62,19 @@ Refer to Blackboard for the most up to date information on deadlines.
 
 ### More Information
 For more information visit our other sections
-Section     Description
-Process     Describes the companies process
-Project Log     Log of project activities
-Costings    Overview of the project cost
-Architecture    Outlines the architecture
-Environments    Overview of the environment set-up
-DR Plan     Disaster Recovery Plan and procedures
-Requirements    Overview of the requirements for the project
-SLAs    Service level agreements
-Risk Management     How we manage risk
-Security    Overview of security
-Project Log     Team log for the project
+| Section  | Description  |
+| --- | --- |
+| Process  | Describes the companies process  |
+| Project Log  | Log of project activities  |
+| Costings  | Overview of the project cost  |
+|   | Outlines the architecture  |
+| Environments  | Overview of the environment set-up  |
+| DR Plan  | Disaster Recovery Plan and procedures  |
+| Requirements  | Overview of the requirements for the project  |
+| SLAs  | Service level agreements  |
+| Risk Management  | How we manage risk  |
+| Security  | Overview of security  |
+| Project Log  | Team log for the project  |
 
 ## Risk Register
 
@@ -165,7 +166,7 @@ These are the current Risks on the project, re-aligned on a weekly basis
     Each member of the team will work <<? story points>> per week, unless they are on vacation.
 
 ### Branching Strategy
-
+<< add branching strategy here >>
 
 ### Estimating Story Points Within Jira
 
