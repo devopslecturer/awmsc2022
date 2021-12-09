@@ -18,25 +18,30 @@ Wednesday Assignment M.Sc. Group 2021-2022
 
 ## Preamble
 
-This is the online repository for the <<Team Name>>. Summary of project requirements should go here.
+This is the online repository for the "Wicked Adventures". Summary of project requirements should go here.
 
 
 Our product will be delivered using an Agile methodology that embraces the DevOps culture. Please note that our culture embraces change and these documents are treated as living, breathing artefacts that will be continuously updated.
 
 ### Scrum Master
-<>
+Sreejith Jayasree Purushothaman
 
 ### Product Owner
-<>
+Anup Jacob
 
 ### Team Members
-<<List each team member on a separate line>>
+Snehal Shirsath
+Snehal Kharinar
+Muhammed Shafeeq Thottathil
+Varnit Rohilla
+Anup Jacob
+Sreejith Jayasree Purushothaman
 
-Lecturer: <<>>
+Lecturer: Paul Greaney
 
   
 ### Project Deadline
-<<date and time>>
+08/04/2022 23:59
 Refer to Blackboard for the most up to date information on deadlines.
   
 ## Project Specification  
@@ -55,9 +60,9 @@ Refer to Blackboard for the most up to date information on deadlines.
 
 ## Useful Links
 
-    DC Slack: <<add link to the slack channel here>>
-    Jira: 
-    GitHub: 
+    DC Slack: https://app.slack.com/client/T84LE6L6R/C02PELNHHD4
+    Jira: https://weekendadventure.atlassian.net/jira/software/projects/WA/boards/1
+    GitHub: https://github.com/devopslecturer/awmsc2022.git
     Project close out presentation: 
 
 ### More Information
@@ -134,8 +139,8 @@ These are the current Risks on the project, re-aligned on a weekly basis
 
 ### Communication
 
-    << ?>> is the preferred method of communication.
-    If a demonstration is required use << ?>>, record the session and upload to the Slack channel.
+    Slack is the preferred method of communication.
+    If a demonstration is required use Slack, record the session and upload to the Slack channel.
     No Slack communications between "<Time and Timezone>".
     Raise a problem as soon as you see it.
     Respect each other and understand differences in knowledge.
