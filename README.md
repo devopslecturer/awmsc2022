@@ -171,7 +171,13 @@ These are the current Risks on the project, re-aligned on a weekly basis
     Each member of the team will work <<? story points>> per week, unless they are on vacation.
 
 ## Branching Strategy
-<< add branching strategy here >>
+Master Branch
+	-Develop branch
+		-Feature 1
+		-Feature 2
+		-...
+	-Test Branch
+	-Prod Branch
 
 ### Estimating Story Points Within Jira
 
