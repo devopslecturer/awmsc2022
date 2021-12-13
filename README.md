@@ -31,7 +31,7 @@ Anup Jacob
 
 ### Team Members
 Snehal Shirsath
-Snehal Kharinar
+Snehal Khairnar
 Muhammed Shafeeq Thottathil
 Varnit Rohilla
 Anup Jacob
@@ -172,11 +172,17 @@ These are the current Risks on the project, re-aligned on a weekly basis
 
 ## Branching Strategy
 Master Branch
+	
 	-Develop branch
+	
 		-Feature 1
+	
 		-Feature 2
+	
 		-...
+	
 	-Test Branch
+	
 	-Prod Branch
 
 ### Estimating Story Points Within Jira
