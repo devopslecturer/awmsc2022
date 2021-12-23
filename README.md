@@ -24,10 +24,10 @@ This is the online repository for the "Wicked Adventures". Summary of project re
 Our product will be delivered using an Agile methodology that embraces the DevOps culture. Please note that our culture embraces change and these documents are treated as living, breathing artefacts that will be continuously updated.
 
 ### Scrum Master
-Sreejith Jayasree Purushothaman
+Varnit Rohilla
 
 ### Product Owner
-Anup Jacob
+Snehal Khairnar
 
 ### Team Members
 Snehal Shirsath
@@ -120,10 +120,10 @@ These are the current Risks on the project, re-aligned on a weekly basis
 
 ### Meetings
 
-    Stand-ups will occur on <<Day(s) and time>>.
+    Stand-ups will occur on Monday at 10.30 AM and Thursday at 2.30 PM.
     The order that people give their updates will be based on <<define the order>> of those present at the meeting.
     Updates will be in the form: What I've done, What I plan to do, Impediments
-    Sprint planning will occur every other <<day and time>>.
+    Sprint planning will occur every other Monday at 11.00 AM.
     Please add and update items within Jira prior to the sprint planning session.
     Sprint retro will occur once a month, <<Date and time>>.
     The order that people present their sprint retro updates will be based on alphabetical order of those present at the meeting.
@@ -141,7 +141,7 @@ These are the current Risks on the project, re-aligned on a weekly basis
 
     Slack is the preferred method of communication.
     If a demonstration is required use Slack, record the session and upload to the Slack channel.
-    No Slack communications between "<Time and Timezone>".
+    No Slack communications between "8 PM to 8 AM ".
     Raise a problem as soon as you see it.
     Respect each other and understand differences in knowledge.
     All team documents are to be created using Markdown language and shared on GitHub.
@@ -152,7 +152,8 @@ These are the current Risks on the project, re-aligned on a weekly basis
     Don’t interrupt and cut another person off while they are talking.
     Listen when someone is talking, don’t interject.
     Zero tolerance for bullying.
-    Communication in this order: <<list in order of preference for the team>>
+    Communication in this order: 
+	Paul Greaney > Ruth Lennon > [Team Members] 
     Agile way of working.
     If are assigned a job, take ownership of it and keep it up to date.
     Stick to your agreed working patterns. Let the team know when you are late or going early.
@@ -168,7 +169,7 @@ These are the current Risks on the project, re-aligned on a weekly basis
     The Scrum Master role rotates each week, the schedule is available on the on the process section
     The Product Owner role rotates each week, the schedule is available on the on the process section
     Jira will be used for task management and planning.
-    Each member of the team will work <<? story points>> per week, unless they are on vacation.
+    Each member of the team will work one or two per week, unless they are on vacation.
 
 ## Branching Strategy
 Master Branch
