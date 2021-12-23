@@ -24,10 +24,16 @@ This is the online repository for the "Wicked Adventures". Summary of project re
 Our product will be delivered using an Agile methodology that embraces the DevOps culture. Please note that our culture embraces change and these documents are treated as living, breathing artefacts that will be continuously updated.
 
 ### Scrum Master
-Varnit Rohilla
+Member Name							Date
+-----------							----
+Sreejith Jayasree Purushothaman		13/12/2021 to 17/12/2021
+Varnit Rohilla  					20/12/2021 to 24/12/2021
 
 ### Product Owner
-Snehal Khairnar
+Member Name							Date
+-----------							----
+Anup Jacob							13/12/2021 to 17/12/2021
+Snehal Khairnar						20/12/2021 to 24/12/2021
 
 ### Team Members
 Snehal Shirsath
