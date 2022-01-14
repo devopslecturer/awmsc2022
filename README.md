@@ -126,10 +126,10 @@ These are the current Risks on the project, re-aligned on a weekly basis
 
 ### Meetings
 
-    Stand-ups will occur on Monday at 10.30 AM and Thursday at 2.30 PM.
+    Stand-ups will occur on Wednesday at 10.30 AM and Thursday at 2.30 PM.
     The order that people give their updates will be based on <<define the order>> of those present at the meeting.
     Updates will be in the form: What I've done, What I plan to do, Impediments
-    Sprint planning will occur every other Monday at 11.00 AM.
+    Sprint planning will occur every other Wednesday at 11.00 AM.
     Please add and update items within Jira prior to the sprint planning session.
     Sprint retro will occur once a month, <<Date and time>>.
     The order that people present their sprint retro updates will be based on alphabetical order of those present at the meeting.
