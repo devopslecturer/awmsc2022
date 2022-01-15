@@ -1,0 +1,115 @@
+
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .img-1{
+        background-image: url('cover.jpg'), linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)); 
+        position: absolute; 
+        object-fit:cover;
+        width: 100%;
+      }
+
+      .img-2{
+        object-fit:cover;
+      }
+      
+.footer {
+  position: relative;
+  width: 100%;
+  background: #3586ff;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+
+.banner:after{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -50px;
+  overflow: visible;
+  width: 100%;
+  z-index: 0;
+  background-color: #f8f9fa;
+  padding: 2rem;
+}
+
+.banner section .form{
+  padding:2rem;
+  width:70%;
+  margin:0 auto;
+  background-color:rgba(255,255,255,1);
+  text-align:center;
+  position:relative;
+  overflow:hidden;
+  border-radius:5px;
+  color:var(--dark);
+}
+
+.transparent{
+       background:rgba(1,1,1,0.5);
+       opacity:0.9;
+}
