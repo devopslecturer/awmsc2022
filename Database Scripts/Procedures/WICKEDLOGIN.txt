@@ -1,0 +1,32 @@
+CREATE OR ALTER PROCEDURE WICKEDLOGIN
+@IUSER VARCHAR(50),
+@IPASS VARCHAR(50),
+@OSTATUS INT
+
+AS
+/*
+Author: Anup Jacob
+Change Date: 19/01/2021
+Version: 1
+Description: Procedure to verfiy if the login username and password exists in the WickedAdventure Database or not
+*/
+
+BEGIN
+
+	SELECT 
+		CUSTOMER_ID = @IUSER
+	FROM 
+		T_WACUSTOMERDETAILS 
+	WHERE 
+		EMAIL_ID = @IUSER;
+
+--PRINT @IUSER;
+
+IF @IUSER IS NOT NULL
+	SET @OSTATUS = 1
+ELSE
+	SET @OSTATUS = 0
+
+PRINT @OSTATUS;
+
+END
