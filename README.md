@@ -26,14 +26,15 @@ Our product will be delivered using an Agile methodology that embraces the DevOp
 ### Scrum Master
 Member Name							Date
 -----------							----
-Sreejith Jayasree Purushothaman		13/12/2021 to 17/12/2021
+Sreejith Jayasree Purushothaman		                13/12/2021 to 17/12/2021
 Varnit Rohilla  					20/12/2021 to 24/12/2021
-
+Muhammed Shafeeq                                        20/01/2022 to 27/01/2022
 ### Product Owner
 Member Name							Date
 -----------							----
 Anup Jacob							13/12/2021 to 17/12/2021
-Snehal Khairnar						20/12/2021 to 24/12/2021
+Snehal Khairnar						        20/12/2021 to 24/12/2021
+Snehal Shirsath                                                 20/01/2022 to 27/01/2022
 
 ### Team Members
 Snehal Shirsath
