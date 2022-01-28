@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Login/Sign Up page with Validation</title>
+  <link rel="stylesheet" href="./css/login-style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+  <div class="container" id="container">
+    <div class="form-container sign-up-container" id="sign-up-container">
+      <form action="#">
+        <h1>Create Account</h1>
+        <span>or use your email for registration</span>
+
+        <div class="input-field">
+          <div class="svg-container start">
+            <i class="fad fa-user"></i>
+          </div>
+          <input type="text" placeholder="Full Name" id="su-name" />
+          <div class="svg-container check" id="su-name-check">
+            <i class="fa fa-check"></i>
+          </div>
+        </div>
+
+        <div class="input-field">
+          <div class="svg-container start">
+            <i class="fad fa-envelope"></i>
+          </div>
+          <input type="text" placeholder="E-mail" id="su-mail" />
+          <div class="svg-container check" id="su-mail-check">
+            <i class="fa fa-check"></i>
+          </div>
+        </div>
+
+        <div class="input-field" id="su-pass-parent">
+          <div class="svg-container start">
+            <i class="fad fa-lock"></i>
+          </div>
+          <input type="password" placeholder="Password" id="su-pass" />
+          <div class="svg-container eye" id="su-pass-show">
+            <i class="fad fa-eye" id="togglePassword"></i>
+          </div>
+        </div>
+
+        <div class="input-field">
+          <div class="svg-container start">
+            <i class="fad fa-lock"></i>
+          </div>
+          <input type="password" placeholder="Password (again)" id="su-pass-re" />
+          <div class="svg-container eye" id="su-pass-re-show">
+            <i class="fad fa-eye" id="togglePasswordRe"></i>
+          </div>
+        </div>
+
+        <div class="error-msg-signup" id="error-msg-signup"></div>
+        <button style="margin-top: 10px" id="sign-up-btn">Sign Up</button>
+        <a id="mobile-in">Sign In <i class="fa fa-arrow-right"></i></a>
+      </form>
+    </div>
+    <div class="form-container sign-in-container" id="sign-in-container">
+      <form action="#">
+        <h1>Sign in</h1>
+        <span>or use your account</span>
+        <div class="input-field">
+          <div class="svg-container start">
+            <i class="fad fa-envelope"></i>
+          </div>
+          <input type="email" placeholder="E-mail" />
+        </div>
+        <div class="input-field">
+          <div class="svg-container start">
+            <i class="fad fa-lock"></i>
+          </div>
+          <input type="password" placeholder="Password" />
+        </div>
+        <div class="error-msg-signin">
+          <i class="fa fa-times-circle"></i>
+          This is a error message.
+        </div>
+        <a href="#">Forgot your password?</a>
+        <button>Sign In</button>
+        <a id="mobile-up">Sign Up <i class="fa fa-arrow-right"></i></a>
+      </form>
+    </div>
+    <div class="overlay-container">
+      <div class="overlay">
+        <div class="overlay-panel overlay-left">
+          <h1>One of us ?</h1>
+          <p>
+            To keep connected with us please login with your personal info
+          </p>
+          <button class="ghost" id="signIn">Sign In</button>
+        </div>
+        <div class="overlay-panel overlay-right">
+          <h1>New here ?</h1>
+          <p>Enter your personal details and start journey with us</p>
+          <button class="ghost" id="signUp">Sign Up</button>
+        </div>
+      </div>
+    </div>
+  </div>
+ <!-- <script src="https://kit-pro.fontawesome.com/releases/v5.10.1/js/pro.min.js" data-auto-fetch-svg></script>
+  <script type="text/javascript" src="login.js"></script> -->
+</body>
+<!-- partial -->
+  </script><script  src="./script/script.js"></script>
+  <!-- <script src='https://kit-pro.fontawesome.com/releases/v5.10.1/js/pro.min.js'></script> -->
+
+</body>
+</html>
