@@ -186,9 +186,9 @@ Master Branch
 	
 	-Develop branch
 	
-		-Feature 1
+		-Login-Register branch
 	
-		-Feature 2
+		-Database branch
 	
 		-...
 	
