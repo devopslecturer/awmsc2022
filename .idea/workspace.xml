@@ -4,7 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cba72680-3481-4506-b201-03ffb830d98d" name="Changes" comment="Add flask framework" />
+    <list default="true" id="cba72680-3481-4506-b201-03ffb830d98d" name="Changes" comment="Add flask framework">
+      <change afterPath="$PROJECT_DIR$/static/images/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/bg-body.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/bg-content.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/bg-footer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/bg-header.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/bg-heading.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/border-dashed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/discounts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/family.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/family2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/family3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/frame1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/frame2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/frame3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/friends.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/gradient.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/mother-and-child.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/swing-ride.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/swing-ride2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/swinger.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +57,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/images" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\shafe\Downloads\WednesdayWicked\static\images" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.app">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -95,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644336657696</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add flask framework">
+      <created>1644337774098</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1644337774098</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
