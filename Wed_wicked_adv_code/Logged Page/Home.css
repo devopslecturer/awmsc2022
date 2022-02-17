@@ -109,7 +109,7 @@
     margin-bottom: -13px;
   }
 }.u-section-3 .u-sheet-1 {
-  min-height: 637px;
+  min-height: 703px;
 }
 
 .u-section-3 .u-text-1 {
@@ -122,13 +122,14 @@
   text-transform: uppercase;
   font-size: 0.875rem;
   letter-spacing: 1px;
+  background-image: none;
   margin: 20px auto 0;
 }
 
 .u-section-3 .u-slider-1 {
   width: 758px;
-  min-height: 512px;
-  margin: 20px auto 5px;
+  min-height: 443px;
+  margin: 20px auto 60px;
 }
 
 .u-section-3 .u-carousel-indicators-1 {
@@ -190,6 +191,26 @@
   margin: 30px auto 0;
 }
 
+.u-section-3 .u-carousel-item-4 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.u-section-3 .u-container-layout-4 {
+  padding: 30px 50px;
+}
+
+.u-section-3 .u-image-4 {
+  height: 309px;
+  width: 633px;
+  margin: 0 auto;
+}
+
+.u-section-3 .u-text-5 {
+  font-size: 1.875rem;
+  margin: 30px auto 0;
+}
+
 .u-section-3 .u-carousel-control-1 {
   width: 38px;
   height: 38px;
@@ -233,11 +254,16 @@
     padding-left: 30px;
     padding-right: 30px;
   }
+
+  .u-section-3 .u-container-layout-4 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 
 @media (max-width: 767px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 582px;
+    min-height: 648px;
   }
 
   .u-section-3 .u-slider-1 {
@@ -254,11 +280,21 @@
     height: 254px;
     width: 520px;
   }
+
+  .u-section-3 .u-container-layout-4 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-3 .u-image-4 {
+    height: 254px;
+    width: 520px;
+  }
 }
 
 @media (max-width: 575px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 484px;
+    min-height: 550px;
   }
 
   .u-section-3 .u-slider-1 {
@@ -277,6 +313,11 @@
   }
 
   .u-section-3 .u-image-3 {
+    height: 156px;
+    width: 320px;
+  }
+
+  .u-section-3 .u-image-4 {
     height: 156px;
     width: 320px;
   }
@@ -313,7 +354,7 @@
 .u-section-4 .u-group-1 {
   width: 545px;
   min-height: 266px;
-  margin: 113px auto 0;
+  margin: 13px auto 0;
 }
 
 .u-section-4 .u-container-layout-2 {
@@ -322,31 +363,31 @@
 
 .u-section-4 .u-text-2 {
   letter-spacing: 2px;
-  text-align: left;
-  margin: 42px 353px 0 33px;
+  margin: 42px 9px 0 189px;
 }
 
 .u-section-4 .u-text-3 {
   letter-spacing: 2px;
-  margin: -26px 9px 0 189px;
+  text-align: left;
+  margin: -76px 353px 0 33px;
 }
 
 .u-section-4 .u-text-4 {
   letter-spacing: 2px;
   text-align: left;
-  margin: -38px 386px 0 0;
+  margin: 13px 386px 0 0;
 }
 
 .u-section-4 .u-text-5 {
   letter-spacing: 2px;
   text-align: left;
-  margin: 51px 353px 0 33px;
+  margin: 51px 13px 0 185px;
 }
 
 .u-section-4 .u-text-6 {
   letter-spacing: 2px;
   text-align: left;
-  margin: -26px 13px 0 185px;
+  margin: -25px 353px 25px 33px;
 }
 
 .u-section-4 .u-layout-cell-2 {
@@ -406,13 +447,13 @@
   }
 
   .u-section-4 .u-text-2 {
-    margin-right: 312px;
-    margin-left: 0;
+    margin-right: 0;
+    margin-left: 123px;
   }
 
   .u-section-4 .u-text-3 {
-    margin-right: 0;
-    margin-left: 123px;
+    margin-right: 312px;
+    margin-left: 0;
   }
 
   .u-section-4 .u-text-4 {
@@ -420,13 +461,13 @@
   }
 
   .u-section-4 .u-text-5 {
-    margin-right: 312px;
-    margin-left: 0;
+    margin-right: 0;
+    margin-left: 123px;
   }
 
   .u-section-4 .u-text-6 {
-    margin-right: 0;
-    margin-left: 123px;
+    margin-right: 312px;
+    margin-left: 0;
   }
 
   .u-section-4 .u-layout-cell-2 {
@@ -449,11 +490,11 @@
   }
 
   .u-section-4 .u-text-2 {
-    margin-right: 202px;
+    margin-left: 13px;
   }
 
   .u-section-4 .u-text-3 {
-    margin-left: 13px;
+    margin-right: 202px;
   }
 
   .u-section-4 .u-text-4 {
@@ -461,11 +502,11 @@
   }
 
   .u-section-4 .u-text-5 {
-    margin-right: 202px;
+    margin-left: 13px;
   }
 
   .u-section-4 .u-text-6 {
-    margin-left: 13px;
+    margin-right: 202px;
   }
 
   .u-section-4 .u-layout-cell-2 {
@@ -502,11 +543,11 @@
   }
 
   .u-section-4 .u-text-2 {
-    margin-right: 182px;
+    margin-left: 0;
   }
 
   .u-section-4 .u-text-3 {
-    margin-left: 0;
+    margin-right: 182px;
   }
 
   .u-section-4 .u-text-4 {
@@ -514,10 +555,10 @@
   }
 
   .u-section-4 .u-text-5 {
-    margin-right: 182px;
+    margin-left: 0;
   }
 
   .u-section-4 .u-text-6 {
-    margin-left: 0;
+    margin-right: 182px;
   }
 }
