@@ -5,30 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cba72680-3481-4506-b201-03ffb830d98d" name="Changes" comment="Add flask framework">
-      <change afterPath="$PROJECT_DIR$/static/images/background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/bg-body.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/bg-content.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/bg-footer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/bg-header.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/bg-heading.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/border-dashed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/bullet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/discounts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/family.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/family2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/family3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/frame1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/frame2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/frame3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/friends.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/gradient.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/mother-and-child.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/swing-ride.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/swing-ride2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/swinger.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wed_wicked_adv_code/Home Page/Payment/Payment.html" beforeDir="false" afterPath="$PROJECT_DIR$/Wed_wicked_adv_code/Home Page/Payment/Payment.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Flask Main" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -53,11 +33,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -148,6 +129,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add flask framework" />
