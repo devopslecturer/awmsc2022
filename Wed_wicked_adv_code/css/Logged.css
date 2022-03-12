@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("images/ca62c7e4-6c20-464a-b7ed-41b7bb4874f8-GettyImages-1051015362.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../images/ca62c7e4-6c20-464a-b7ed-41b7bb4874f8-GettyImages-1051015362.jpg");
   background-position: 50% 50%;
 }
 
@@ -322,7 +322,7 @@
     width: 320px;
   }
 } .u-section-4 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("images/56aba199dd0895a3018b478f.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("../images/56aba199dd0895a3018b478f.jpg");
   background-position: 50% 50%;
 }
 
