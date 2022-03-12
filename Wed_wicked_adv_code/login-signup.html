@@ -19,7 +19,7 @@
           <div class="svg-container start">
             <i class="fad fa-user"></i>
           </div>
-          <input type="text" placeholder="Full Name" id="su-name" />
+          <input type="text" placeholder="Full Name" id="su-name" required />
           <div class="svg-container check" id="su-name-check">
             <i class="fa fa-check"></i>
           </div>
@@ -29,7 +29,7 @@
           <div class="svg-container start">
             <i class="fad fa-envelope"></i>
           </div>
-          <input type="text" placeholder="E-mail" id="su-mail" />
+          <input type="email" placeholder="E-mail" id="su-mail" required />
           <div class="svg-container check" id="su-mail-check">
             <i class="fa fa-check"></i>
           </div>
@@ -39,7 +39,7 @@
           <div class="svg-container start">
             <i class="fad fa-lock"></i>
           </div>
-          <input type="password" placeholder="Password" id="su-pass" />
+          <input type="password" placeholder="Password" id="su-pass"pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required/>
           <div class="svg-container eye" id="su-pass-show">
             <i class="fad fa-eye" id="togglePassword"></i>
           </div>
@@ -49,7 +49,7 @@
           <div class="svg-container start">
             <i class="fad fa-lock"></i>
           </div>
-          <input type="password" placeholder="Password (again)" id="su-pass-re" />
+          <input type="password" placeholder="Password (again)" id="su-pass-re" required />
           <div class="svg-container eye" id="su-pass-re-show">
             <i class="fad fa-eye" id="togglePasswordRe"></i>
           </div>
@@ -68,13 +68,13 @@
           <div class="svg-container start">
             <i class="fad fa-envelope"></i>
           </div>
-          <input type="email" placeholder="E-mail" />
+          <input type="email" placeholder="E-mail" required />
         </div>
         <div class="input-field">
           <div class="svg-container start">
             <i class="fad fa-lock"></i>
           </div>
-          <input type="password" placeholder="Password" />
+          <input type="password" placeholder="Password" required />
         </div>
         <div class="error-msg-signin">
           <i class="fa fa-times-circle"></i>
