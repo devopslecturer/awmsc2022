@@ -1,0 +1,2 @@
+sudo apt install libmariadb-dev-compat 
+sudo apt install libmysqlclient-dev
