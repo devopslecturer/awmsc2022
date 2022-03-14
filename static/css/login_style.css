@@ -6,9 +6,9 @@
   --text-primary: #b6b6b6;
   --text-secondary: #ececec;
   --bg-primary: #554219;
-  --bg-secondary: #116d56;
+  --bg-secondary: #50627c;
   --transition-speed: 600ms;
-  --color-one: #00ff88;
+  --color-one: #258b5c;
   --color-two: #00ffbf;
 }
 
@@ -40,7 +40,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  background: url(../images/background.jpg) repeat;
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../images/login-signup.jpg");
   color: var(--text-primary);
   display: flex;
   flex-direction: column;

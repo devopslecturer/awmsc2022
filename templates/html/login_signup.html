@@ -17,7 +17,7 @@
           <div class="svg-container start">
             <i class="fad fa-user"></i>
           </div>
-          <input type="text" placeholder="Full Name" id="su-name" required />
+          <input type="text" placeholder="Full Name" name="su-name" />
           <div class="svg-container check" id="su-name-check">
             <i class="fa fa-check"></i>
           </div>
@@ -27,7 +27,7 @@
           <div class="svg-container start">
             <i class="fad fa-envelope"></i>
           </div>
-          <input type="email" placeholder="E-mail" id="su-mail" required />
+          <input type="text" placeholder="E-mail" name="su-mail" />
           <div class="svg-container check" id="su-mail-check">
             <i class="fa fa-check"></i>
           </div>
@@ -37,7 +37,7 @@
           <div class="svg-container start">
             <i class="fad fa-lock"></i>
           </div>
-          <input type="password" placeholder="Password" id="su-pass"pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required/>
+          <input type="password" placeholder="Password" name="su-pass" />
           <div class="svg-container eye" id="su-pass-show">
             <i class="fad fa-eye" id="togglePassword"></i>
           </div>
@@ -47,14 +47,14 @@
           <div class="svg-container start">
             <i class="fad fa-lock"></i>
           </div>
-          <input type="password" placeholder="Password (again)" id="su-pass-re" required />
+          <input type="password" placeholder="Password (again)" name="su-pass-re" />
           <div class="svg-container eye" id="su-pass-re-show">
             <i class="fad fa-eye" id="togglePasswordRe"></i>
           </div>
         </div>
 
         <div class="error-msg-signup" id="error-msg-signup"></div>
-        <button style="margin-top: 10px" id="sign-up-btn">Sign Up</button>
+        <button onclick="sign_up()"style="margin-top: 10px" id="sign-up-btn">Sign Up</button>
         <a id="mobile-in">Sign In <i class="fa fa-arrow-right"></i></a>
       </form>
     </div>
@@ -66,21 +66,34 @@
           <div class="svg-container start">
             <i class="fad fa-envelope"></i>
           </div>
+<<<<<<< HEAD:templates/html/login_signup.html
           <input type="email" placeholder="E-mail" name="email" id="email" required />
+=======
+          <input type="email" placeholder="E-mail" name="E-mail" />
+>>>>>>> ec646bc78e6b76c10baf48eb59572b595cba85a5:Wed_wicked_adv_code/html/login-signup.html
         </div>
         <div class="input-field">
           <div class="svg-container start">
             <i class="fad fa-lock"></i>
           </div>
+<<<<<<< HEAD:templates/html/login_signup.html
           <input type="password" placeholder="Password" name="password" id="password" required />
+=======
+          <input type="password" placeholder="Password" name="Password" />
+>>>>>>> ec646bc78e6b76c10baf48eb59572b595cba85a5:Wed_wicked_adv_code/html/login-signup.html
         </div>
         <div class="error-msg-signin">
           <i class="fa fa-times-circle"></i>
           This is a error message.
         </div>
         <a href="#">Forgot your password?</a>
+<<<<<<< HEAD:templates/html/login_signup.html
         <button type="submit">Sign In</button>
         <a id="mobile-up">Sign Up <i class="fa fa-arrow-right"></i></a>
+=======
+        <button>Sign In</button>
+        <a href="login-signup.html" id="mobile-up">Sign Up <i class="fa fa-arrow-right"></i></a>
+>>>>>>> ec646bc78e6b76c10baf48eb59572b595cba85a5:Wed_wicked_adv_code/html/login-signup.html
       </form>
     </div>
     <div class="overlay-container">
@@ -104,7 +117,7 @@
   <script type="text/javascript" src="login.js"></script> -->
 </body>
 <!-- partial -->
-  </script><script  src="./script/script.js"></script>
+  </script><script  src="../js/script.js"></script>
   <!-- <script src='https://kit-pro.fontawesome.com/releases/v5.10.1/js/pro.min.js'></script> -->
 
 </body>
