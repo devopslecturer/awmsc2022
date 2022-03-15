@@ -10,20 +10,23 @@
     <meta name="description" content="" />
     <meta name="page_type" content="np-template-header-footer-from-plugin" />
     <title>Home</title>
-    <link rel="stylesheet" href="{{ url_for('.static', filename='css/Homepage.css') }}" media="screen" />
-    <link rel="stylesheet" href=" {{ url_for('.static', filename='css/Home.css') }}" media="screen" />
+    <link rel="stylesheet" href="../static/css/Homepage.css" media="screen">
+<link rel="stylesheet" href="../static/css/Home.css" media="screen">
+    <!-- commented for Python issue check
+	<link rel="stylesheet" href="{{ url_for('.static', filename='/css/Homepage.css') }}" media="screen" />
+    <link rel="stylesheet" href=" {{ url_for('.static', filename='css/Home.css') }}" media="screen" /> 
+	-->
+    <script class="u-script"
+      type="text/javascript"
+      src="../static/jquery/Home_jquery.js"
+      defer="">
+	  </script>
     <script
       class="u-script"
       type="text/javascript"
-      src="../jquery/Home_jquery.js"
-      defer=""
-    ></script>
-    <script
-      class="u-script"
-      type="text/javascript"
-      src="../js/Homepage.js"
-      defer=""
-    ></script>
+      src="../static/js/Homepage.js"
+      defer="">
+	  </script>
     <meta name="generator" content="Nicepage 4.5.4, nicepage.com" />
     <link
       id="u-theme-google-font"
@@ -57,7 +60,7 @@
           data-image-height="698"
         >
           <img
-            src="../images/WWA-LOGO.jpg"
+            src="../static/images/WWA-LOGO.jpg"
             class="u-logo-image u-logo-image-1"
           />
         </a>
@@ -184,7 +187,7 @@
           </div>
         </nav>
         <a
-          href="{{url_for('load_login_page')}}"
+          href="login_signup.html"
           class="u-btn u-button-style u-hover-palette-1-dark-1 u-palette-1-base u-btn-1"
           >Register/Login</a
         >
@@ -280,7 +283,7 @@
                   class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-image u-image-default u-image-1"
                   data-image-width="828"
                   data-image-height="466"
-                  src="../images/ferris.jpg"
+                  src="../static/images/ferris.jpg"
                 />
                 <h4 class="u-text u-text-default u-text-2">The Ferris Wheel</h4>
               </div>
@@ -342,7 +345,7 @@
                   class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-image u-image-default u-image-2"
                   data-image-width="1280"
                   data-image-height="720"
-                  src="../images/scrambler.jpg"
+                  src="../static/images/scrambler.jpg"
                 />
                 <h4 class="u-text u-text-default u-text-3">The Sc​rambler</h4>
               </div>
@@ -401,7 +404,7 @@
               <div class="u-container-layout u-container-layout-3">
                 <img
                   class="u-image u-image-default u-image-3"
-                  src="../images/5272202e3698fd2de931d1a42affca3633591287a26f301823b0e752d5504385b61e977a5c646b794c2c35d453b95b2462838a49f45dc03709fb8f_12801.jpg"
+                  src="../static/images/5272202e3698fd2de931d1a42affca3633591287a26f301823b0e752d5504385b61e977a5c646b794c2c35d453b95b2462838a49f45dc03709fb8f_12801.jpg"
                   alt=""
                   data-image-width="1280"
                   data-image-height="853"
@@ -465,7 +468,7 @@
               <div class="u-container-layout u-container-layout-4">
                 <img
                   class="u-image u-image-default u-image-4"
-                  src="../images/42ecdfc10d9c62861e99dc6df041c681101af4bdb386617337febb9fc35bc50b67907ed3d7c2599c63ef3f451a84a912daae6a537d843fc6a5a4ba_1280.jpg"
+                  src="../static/images/42ecdfc10d9c62861e99dc6df041c681101af4bdb386617337febb9fc35bc50b67907ed3d7c2599c63ef3f451a84a912daae6a537d843fc6a5a4ba_1280.jpg"
                   alt=""
                   data-image-width="1280"
                   data-image-height="853"

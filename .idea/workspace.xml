@@ -6,26 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="cba72680-3481-4506-b201-03ffb830d98d" name="Changes" comment="Add flask framework">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI Front Page/Code/Giant_Wheel.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Archive/UI Front Page/Code/Giant_Wheel.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI Front Page/Code/Haunted Mansion.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Archive/UI Front Page/Code/Haunted Mansion.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI Front Page/Code/Roller-coaster.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Archive/UI Front Page/Code/Roller-coaster.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI Front Page/Code/Scrambler.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Archive/UI Front Page/Code/Scrambler.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI Front Page/Code/The Rotor.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Archive/UI Front Page/Code/The Rotor.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI Front Page/Code/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/Archive/UI Front Page/Code/blog.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI Front Page/Code/blog.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/Archive/UI Front Page/Code/blog.rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI Front Page/Code/carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/Archive/UI Front Page/Code/carousel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI Front Page/Code/cover.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Archive/UI Front Page/Code/cover.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI Front Page/Code/cover2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Archive/UI Front Page/Code/cover2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI Front Page/Code/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/Archive/UI Front Page/Code/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI Front Page/Code/heroes.css" beforeDir="false" afterPath="$PROJECT_DIR$/Archive/UI Front Page/Code/heroes.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI Front Page/Code/images.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Archive/UI Front Page/Code/images.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI Front Page/Code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Archive/UI Front Page/Code/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI Front Page/assets/dist/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Archive/UI Front Page/assets/dist/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI Front Page/assets/dist/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Archive/UI Front Page/assets/dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI Front Page/assets/dist/css/bootstrap.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Archive/UI Front Page/assets/dist/css/bootstrap.rtl.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI Front Page/assets/dist/css/bootstrap.rtl.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Archive/UI Front Page/assets/dist/css/bootstrap.rtl.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI Front Page/assets/dist/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Archive/UI Front Page/assets/dist/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI Front Page/assets/dist/js/bootstrap.bundle.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/Archive/UI Front Page/assets/dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/Home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/login_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/login_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/py/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/html/Bookings.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/html/Home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/html/Loggedpage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/html/Payment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/html/login_signup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/html/paymentsucess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

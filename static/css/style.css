@@ -1,13 +1,13 @@
 /*Website Template by freewebsitetemplates.com*/
 @font-face {
   font-family: "Wellfleet-Regular";
-  src: url("../fonts/Wellfleet-Regular.eot");
-  src: url("../fonts/Wellfleet-Regular.woff") format("woff"),
-    url("../fonts/Wellfleet-Regular.ttf") format("truetype"),
-    url("../fonts/Wellfleet-Regular.svg") format("svg");
+  src: url("../static/fonts/Wellfleet-Regular.eot");
+  src: url("../static/fonts/Wellfleet-Regular.woff") format("woff"),
+    url("../static/fonts/Wellfleet-Regular.ttf") format("truetype"),
+    url("../static/fonts/Wellfleet-Regular.svg") format("svg");
 }
 body {
-  background: url(../images/background.jpg) repeat;
+  background: url(../static/images/background.jpg) repeat;
   color: #a7a78b;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
@@ -17,7 +17,7 @@ body {
   padding: 0;
 }
 #background {
-  background: url(../images/gradient.png) repeat-x top left;
+  background: url(../static/images/gradient.png) repeat-x top left;
   margin: 0;
   padding: 0;
 }
@@ -27,7 +27,7 @@ body {
   width: 960px;
 }
 #header {
-  background: url(../images/bg-header.png) no-repeat top center;
+  background: url(../static/images/bg-header.png) no-repeat top center;
   height: 180px;
   margin: 0;
   overflow: hidden;
@@ -84,7 +84,7 @@ body {
   padding: 0;
 }
 #body #figure {
-  background: url(../images/frame1.png) no-repeat top center;
+  background: url(../static/images/frame1.png) no-repeat top center;
   height: 457px;
   margin: 0 0 30px;
   overflow: hidden;
@@ -109,7 +109,7 @@ body {
   width: fit-content;
 }
 #body #section h1 {
-  background: url(../images/bg-heading.png) no-repeat top left;
+  background: url(../static/images/bg-heading.png) no-repeat top left;
   color: #f8f4e3;
   font-family: "Wellfleet-Regular";
   font-size: 24px;
@@ -121,7 +121,7 @@ body {
   text-transform: uppercase;
 }
 #body #section > div {
-  background: url(../images/bg-content.png) repeat-y top center;
+  background: url(../static/images/bg-content.png) repeat-y top center;
   margin: 0;
   overflow: hidden;
   padding: 10px 0;
@@ -159,7 +159,7 @@ body {
   width: 260px;
 }
 #body #section div .article ul li > a {
-  background: url(../images/frame3.jpg) no-repeat top center;
+  background: url(../static/images/frame3.jpg) no-repeat top center;
   display: block;
   padding: 10px;
 }
@@ -209,7 +209,7 @@ body {
   padding: 0;
 }
 #body #section div .aside ul li {
-  background: url(../images/border-dashed.png) repeat-x top left;
+  background: url(../static/images/border-dashed.png) repeat-x top left;
   list-style: none;
   padding: 10px 0;
 }
@@ -237,7 +237,7 @@ body {
 #body #content,
 #body #blog,
 #body #contact {
-  background: url(../images/bg-content.png) repeat-y top center;
+  background: url(../static/images/bg-content.png) repeat-y top center;
   margin: 0;
   min-height: 750px;
   overflow: hidden;
@@ -247,7 +247,7 @@ body {
   padding: 0 0 20px;
 }
 #body #content .section {
-  background: url(../images/frame2.png) no-repeat top center;
+  background: url(../static/images/frame2.png) no-repeat top center;
   height: 403px;
   margin: 20px 0 0;
   padding: 27px 0;
@@ -317,7 +317,7 @@ body {
   width: 420px;
 }
 #body #content .gallery ul li > a {
-  background: url(../images/frame3.jpg) repeat-x top left;
+  background: url(../static/images/frame3.jpg) repeat-x top left;
   display: block;
   margin: 0;
   padding: 10px;
@@ -608,7 +608,7 @@ body {
   padding: 0;
 }
 #body #blog #sidebar .recent ul li {
-  background: url(../images/border-dashed.png) repeat-x top left;
+  background: url(../static/images/border-dashed.png) repeat-x top left;
   padding: 12px 0;
 }
 #body #blog #sidebar .recent ul li:first-child {
@@ -616,7 +616,7 @@ body {
   padding-top: 0;
 }
 #body #blog #sidebar .archive ul li {
-  background: url(../images/bullet.png) no-repeat 0 10px;
+  background: url(../static/images/bullet.png) no-repeat 0 10px;
   padding: 0 0 0 20px;
 }
 #body #blog #sidebar ul li span {
@@ -645,7 +645,7 @@ body {
   padding: 10px 10px 30px;
 }
 #body #contact div .figure {
-  background: url(../images/frame3.jpg) repeat;
+  background: url(../static/images/frame3.jpg) repeat;
   float: left;
   margin: 0 20px;
   padding: 20px;
@@ -782,7 +782,7 @@ body {
   width: 468px;
 }
 #body #contact form #send {
-  background: url(../images/button.png) no-repeat 0 0;
+  background: url(../static/images/button.png) no-repeat 0 0;
   border: 0;
   cursor: pointer;
   height: 24px;
@@ -791,10 +791,10 @@ body {
   width: 51px;
 }
 #body #contact form #send:hover {
-  background: url(../images/button.png) no-repeat 0 -29px;
+  background: url(../static/images/button.png) no-repeat 0 -29px;
 }
 #footer {
-  background: url(../images/bg-footer.png) no-repeat top center;
+  background: url(../static/images/bg-footer.png) no-repeat top center;
   height: 222px;
   margin: 0;
   padding: 38px 0 31px;
@@ -884,7 +884,7 @@ body {
   width: 73px;
 }
 #footer div div ul.connect li a {
-  background: url(../images/icons.png) no-repeat;
+  background: url(../static/images/icons.png) no-repeat;
   display: block;
   height: 72px;
   text-indent: -99999px;
