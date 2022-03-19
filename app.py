@@ -41,13 +41,13 @@ def login_signup():
     if request.method == 'POST':
         firstname = request.args.get('su-name')
         lastname=request.args.get('su-lastname')
-        Email = request.args.get('su-mail')
-        Password = request.args.get('su-pass')  
-        # print(Email)
-        # print(Password)
+        email = request.args.get('su-mail')
+        password = request.args.get('su-pass')  
+        # print(email)
+        # print(password)
         # print(lastname)
         cursor = mysql.connection.cursor()
-        cursor.execute('''INSERT INTO cust_details VALUES(%s,%s,%s,%s)''',(firstname,lastname,Email,Password))
+        cursor.execute('''INSERT INTO cust_details VALUES(%s,%s,%s,%s)''',(firstname, lastname, email, password))
         mysql.connection.commit()
         cursor.close()
         return '</h1>signed up</h2>'    
