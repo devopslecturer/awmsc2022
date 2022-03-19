@@ -58,6 +58,8 @@
         <a id="mobile-in">Sign In <i class="fa fa-arrow-right"></i></a>
       </form>
     </div>
+
+
     <div class="form-container sign-in-container" id="sign-in-container">
       <form action="/login_signup_check" method="GET" >
         <h1>Sign in</h1>
@@ -66,20 +68,20 @@
           <div class="svg-container start">
             <i class="fad fa-envelope"></i>
           </div>
-          <input type="email" placeholder="E-mail" name="email" id="email" required />
+          <input type="email" placeholder="E-mail" name="email" required />
         </div>
         <div class="input-field">
           <div class="svg-container start">
             <i class="fad fa-lock"></i>
           </div>
-          <input type="password" placeholder="Password" name="password" id="password" required />
+          <input type="password" placeholder="Password" name="password" required />
         </div>
         <div class="error-msg-signin">
           <i class="fa fa-times-circle"></i>
           This is a error message.
         </div>
         <a href="#">Forgot your password?</a>
-        <button type="submit">Sign In</button>
+        <button type="Submit">Sign In</button>
         <a id="mobile-up">Sign Up <i class="fa fa-arrow-right"></i></a>
       </form>
     </div>
@@ -104,7 +106,7 @@
   <script type="text/javascript" src="login.js"></script> -->
 </body>
 <!-- partial -->
-  </script><script  src="../js/script.js"></script>
+  </script><script  src="{{url_for('.static' , filename='js/script.js')}} "></script>
   <!-- <script src='https://kit-pro.fontawesome.com/releases/v5.10.1/js/pro.min.js'></script> -->
 
 </body>
