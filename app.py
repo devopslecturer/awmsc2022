@@ -2,8 +2,8 @@ from flask import Flask, render_template, request
 # from flask_sqlalchemy import SQLAlchemy
 from flask_mysqldb import MySQL
 # from werkzeug.security import generate_password_hash, check_password_hash
-from os import getenv, path
-from dotenv import load_dotenv
+# from os import getenv, path
+# from dotenv import load_dotenv
 
 app = Flask(__name__)
 mysql = MySQL(app)
