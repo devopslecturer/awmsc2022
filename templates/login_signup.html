@@ -13,7 +13,7 @@
     <div class="form-container sign-up-container" id="sign-up-container">
       <form action="/login_signup_check" method="POST"> 
         <h1>Create Account</h1>
-        <span>or use your email for registration</span>
+        <span>or use your email for registration {{confirm_message}}</span>
         <div class="input-field">
           <div class="svg-container start">
             <i class="fad fa-user"></i>
@@ -55,7 +55,15 @@
         </div>
 
         <div class="error-msg-signup" id="error-msg-signup"></div>
-        <button onclick="sign_up()"style="margin-top: 10px" id="sign-up-btn">Sign Up</button>
+        <button onclick="sign_up()" style="margin-top: 10px" id="sign-up-btn">Sign Up  </button>
+
+            <!-- Start of pop up for registration -->
+<!--            <script>-->
+<!--                function sign_up() {-->
+<!--                document.get-->
+<!--                }-->
+<!--            </script>-->
+             <!--End of pop up for registration -->
         <a id="mobile-in">Sign In <i class="fa fa-arrow-right"></i></a>
       </form>
     </div>

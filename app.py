@@ -52,8 +52,12 @@ def login_signup():
         cursor.execute('''INSERT INTO customer_details (fullname, email, password) VALUES (%s,%s,%s)''',(fullname, email, password))
         mysql.connection.commit()
         cursor.close()
-        return '</h1>signed up</h2>'    
-        
+        return render_template('login_signup.html', confirm_message='registration sucdessful')   # pop up for registration
+
+@app.route('/bookings')
+def load_bookings_page():
+    return render_template('bookings.html')
+
 if __name__ == '__main__':
     app.debug = True
     app.run()
