@@ -1,7 +1,5 @@
 from flask import Flask, render_template, request
-
 from flask_mysqldb import MySQL
-
 
 app = Flask(__name__)
 mysql = MySQL(app)
@@ -13,6 +11,7 @@ app.config['MYSQL_DB'] = 'sql4480309'
 
 # route to home page when / is present in url
 @app.route('/')
+
 def index():
     return render_template('home.html')
 

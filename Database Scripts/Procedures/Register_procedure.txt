@@ -1,0 +1,20 @@
+CREATE PROCEDURE sp_Register()
+@myCUSTOMER_NAME VARCHAR(50),
+@myEMAIL_ID VARCHAR(50),
+@myPASSWD VARCHAR(150)
+AS
+/*
+Author: Sreejith Jayasree purushothaman
+Change Date: 08/02/2022
+Version: 1
+Description: Procedure to insert registration details into customer table
+*/  
+
+BEGIN 
+
+ =
+
+insert into dbo.T_WACUSTOMERDETAILS( CUSTOMER_NAME, EMAIL_ID, PASSWD)
+values(@myCUSTOMER_NAME, @myEMAIL_ID, @myPASSWD)
+
+END 
