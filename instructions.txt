@@ -1,0 +1,16 @@
+
+## Execute if you get setup file error in python while installing library
+sudo apt install libmariadb-dev-compat 
+sudo apt install libmysqlclient-dev
+##
+
+## command to run the flask application 
+
+export FLASK_APP=app.py export FLASK_ENV=development flask run
+
+## install all the libraries in pip at once
+pip install -r reqs.txt
+
+## connect to the database
+mysql -u USERNAME -h HOSTNAMEORIP DATABASENAME -p
+mysql -h sql4.freemysqlhosting.net -P 3306 -D sql4480309 -u sql4480309 -pywtgHyDEsc

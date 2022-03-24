@@ -3,23 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <title>CodePen - Login/Sign Up page with Validation</title>
-  <link rel="stylesheet" href="./css/login-style.css">
-
+  <link rel="stylesheet" href="../static/css/login_style.css">
+  <!-- <link rel="stylesheet" href="{{url_for('.static', filename='../staic/css/login_style.css')}}"> -->
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<body>
+<body>`
   <div class="container" id="container">
     <div class="form-container sign-up-container" id="sign-up-container">
-      <form action="#">
+      <form action="/login_signup_check" method="POST"> 
         <h1>Create Account</h1>
-        <span>or use your email for registration</span>
-
+        <span>or use your email for registration {{confirm_message}}</span>
         <div class="input-field">
           <div class="svg-container start">
             <i class="fad fa-user"></i>
           </div>
-          <input type="text" placeholder="Full Name" id="su-name" />
+          <input type="text" placeholder="Full Name" name="su-name" />
           <div class="svg-container check" id="su-name-check">
             <i class="fa fa-check"></i>
           </div>
@@ -29,7 +28,7 @@
           <div class="svg-container start">
             <i class="fad fa-envelope"></i>
           </div>
-          <input type="text" placeholder="E-mail" id="su-mail" />
+          <input type="text" placeholder="E-mail" name="su-mail" />
           <div class="svg-container check" id="su-mail-check">
             <i class="fa fa-check"></i>
           </div>
@@ -39,7 +38,7 @@
           <div class="svg-container start">
             <i class="fad fa-lock"></i>
           </div>
-          <input type="password" placeholder="Password" id="su-pass" />
+          <input type="password" placeholder="Password" name="su-pass" />
           <div class="svg-container eye" id="su-pass-show">
             <i class="fad fa-eye" id="togglePassword"></i>
           </div>
@@ -49,39 +48,49 @@
           <div class="svg-container start">
             <i class="fad fa-lock"></i>
           </div>
-          <input type="password" placeholder="Password (again)" id="su-pass-re" />
+          <input type="password" placeholder="Password (again)" name="su-pass-re" />
           <div class="svg-container eye" id="su-pass-re-show">
             <i class="fad fa-eye" id="togglePasswordRe"></i>
           </div>
         </div>
 
         <div class="error-msg-signup" id="error-msg-signup"></div>
-        <button style="margin-top: 10px" id="sign-up-btn">Sign Up</button>
+        <button onclick="sign_up()" style="margin-top: 10px" id="sign-up-btn">Sign Up  </button>
+
+            <!-- Start of pop up for registration -->
+<!--            <script>-->
+<!--                function sign_up() {-->
+<!--                document.get-->
+<!--                }-->
+<!--            </script>-->
+             <!--End of pop up for registration -->
         <a id="mobile-in">Sign In <i class="fa fa-arrow-right"></i></a>
       </form>
     </div>
+
+
     <div class="form-container sign-in-container" id="sign-in-container">
-      <form action="#">
+      <form action="/login_signup_check" method="GET" >
         <h1>Sign in</h1>
         <span>or use your account</span>
         <div class="input-field">
           <div class="svg-container start">
             <i class="fad fa-envelope"></i>
           </div>
-          <input type="email" placeholder="E-mail" />
+          <input type="email" placeholder="E-mail" name="email" required />
         </div>
         <div class="input-field">
           <div class="svg-container start">
             <i class="fad fa-lock"></i>
           </div>
-          <input type="password" placeholder="Password" />
+          <input type="password" placeholder="Password" name="password" required />
         </div>
         <div class="error-msg-signin">
           <i class="fa fa-times-circle"></i>
           This is a error message.
         </div>
         <a href="#">Forgot your password?</a>
-        <button>Sign In</button>
+        <button type="Submit">Sign In</button>
         <a id="mobile-up">Sign Up <i class="fa fa-arrow-right"></i></a>
       </form>
     </div>
@@ -106,8 +115,8 @@
   <script type="text/javascript" src="login.js"></script> -->
 </body>
 <!-- partial -->
-  </script><script  src="./script/script.js"></script>
-  <!-- <script src='https://kit-pro.fontawesome.com/releases/v5.10.1/js/pro.min.js'></script> -->
+<script  src="{{url_for('.static' , filename='js/script.js')}} "></script>
+ <!-- <script src='https://kit-pro.fontawesome.com/releases/v5.10.1/js/pro.min.js'></script> -->
 
 </body>
 </html>
