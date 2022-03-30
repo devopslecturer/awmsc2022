@@ -11,7 +11,6 @@ app.config['MYSQL_PORT'] = 3306
 
 # route to home page when / is present in url
 @app.route('/')
-
 def index():
     return render_template('home.html')
 
