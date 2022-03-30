@@ -147,7 +147,7 @@ su_pass_re.addEventListener("input", () => {
 
 document.getElementById("sign-up-btn").addEventListener("click", () => 
 {
- /* if (
+  if (
     document.getElementById("su-name-check").style.display == "" ||
     document.getElementById("su-name-check").style.display == "none"
   ) {
@@ -168,7 +168,7 @@ document.getElementById("sign-up-btn").addEventListener("click", () =>
     document.getElementById("error-msg-signup").innerHTML =
       "<i class='fa fa-times-circle'></i> Your password is too weak.";
     document.getElementById("error-msg-signup").style.display = "block";
-  } else*/
+  } else
     if (su_pass.value != su_pass_re.value) {
     document.getElementById("error-msg-signup").innerHTML =
       "<i class='fa fa-times-circle'></i> Passwords don't match.";

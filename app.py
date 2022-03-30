@@ -7,7 +7,7 @@ app.config['MYSQL_HOST'] = 'sql4.freemysqlhosting.net'
 app.config['MYSQL_USER'] = 'sql4480309'
 app.config['MYSQL_PASSWORD'] = 'ywtgHyDEsc'
 app.config['MYSQL_DB'] = 'sql4480309'
-# app.config['MYSQL_PORT'] = 3306
+app.config['MYSQL_PORT'] = 3306
 
 # route to home page when / is present in url
 @app.route('/')
@@ -53,7 +53,7 @@ def login_signup():
         cursor.execute('''INSERT INTO customer_details (fullname, email, password) VALUES (%s,%s,%s)''',(fullname, email, password))
         mysql.connection.commit()
         cursor.close()
-        return render_template('login_signup.html', confirm_message='registration sucdessful')   # pop up for registration
+        return render_template('login_signup.html', confirm_message='registration successful')   # pop up for registration
 
 # route to bookings page 
 @app.route('/bookings.html')

@@ -18,7 +18,7 @@
           <div class="svg-container start">
             <i class="fad fa-user"></i>
           </div>
-          <input type="text" placeholder="Full Name" name="su-name" />
+          <input type="text" placeholder="Full Name" name="su-name" required />
           <div class="svg-container check" id="su-name-check">
             <i class="fa fa-check"></i>
           </div>
@@ -28,7 +28,7 @@
           <div class="svg-container start">
             <i class="fad fa-envelope"></i>
           </div>
-          <input type="text" placeholder="E-mail" name="su-mail" />
+          <input type="email" placeholder="E-mail" name="su-mail" required />
           <div class="svg-container check" id="su-mail-check">
             <i class="fa fa-check"></i>
           </div>
@@ -38,7 +38,7 @@
           <div class="svg-container start">
             <i class="fad fa-lock"></i>
           </div>
-          <input type="password" placeholder="Password" name="su-pass" />
+          <input type="password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" name="su-pass" required/>
           <div class="svg-container eye" id="su-pass-show">
             <i class="fad fa-eye" id="togglePassword"></i>
           </div>
@@ -48,7 +48,7 @@
           <div class="svg-container start">
             <i class="fad fa-lock"></i>
           </div>
-          <input type="password" placeholder="Password (again)" name="su-pass-re" />
+          <input type="password" placeholder="Password (again)" name="su-pass-re" required />
           <div class="svg-container eye" id="su-pass-re-show">
             <i class="fad fa-eye" id="togglePasswordRe"></i>
           </div>
