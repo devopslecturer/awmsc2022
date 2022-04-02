@@ -22,9 +22,9 @@ def index():
 
     Description : The "index" function is used to handle the \/\ character in the URL while calling from app.py
 
-    Return File: home.html
+    Return File : home.html
     
-    Return  Type : HTML
+    Return Type : HTML
 
     """
 
@@ -119,7 +119,7 @@ def load_bookings_page():
 
     """
 
-    Description : Description : The "load_bookings_page" function is used to call the Bookings/ Rides page from python app.py
+    Description : The "load_bookings_page" function is used to call the Bookings/ Rides page from python app.py
 
     Return File : bookings.html
     
@@ -135,7 +135,7 @@ def load_profile_page():
 
     """
 
-    Description : Description : The "load_profile_page" function is used to call the profiles page from python app.py
+    Description : The "load_profile_page" function is used to call the profiles page from python app.py
 
     Return File : profile.html
     
@@ -151,7 +151,7 @@ def load_payment_page():
 
     """
 
-    Description : Description : The "load_payment_page" function is used to call the payment page from python app.py
+    Description : The "load_payment_page" function is used to call the payment page from python app.py
 
     Return File : payment.html
     
