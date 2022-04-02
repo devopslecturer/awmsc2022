@@ -1,4 +1,4 @@
-name: Pages
+name: Sphinx workflow for autodocumentation
 on:
   push:
     branches: Flask_Initial_Setup
