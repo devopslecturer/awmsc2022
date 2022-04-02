@@ -1,9 +1,9 @@
 name: Pages
 on:
   push:
-    branches: Sphinx
+    branches: Flask_Initial_Setup
   pull_request:
-    branches: Sphinx
+    branches: Flask_Initial_Setup
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -36,4 +36,4 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: gh-pages
+        branch: Flask-sphinx
