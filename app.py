@@ -2,7 +2,16 @@ from flask import Flask, render_template, request
 from flask_mysqldb import MySQL
 
 """
-app.py code is shown here. This is a functionality to test the sphinx for auto documentation.
+
+File Name: app.py
+
+Description: This python file is used for mapping the python functionality with all the HTML files used in the Wednesday's Wicked Adventures Application.
+
+Created date: 15-02-2022
+
+Version         Authors             Changed date
+-------         -------             ------------
+1.0             Anup Jacob          02-04-2022
 
 """
 
@@ -28,9 +37,9 @@ def load_home_page():
 
     Description : The "load_home_page" function is used to call the Homepage from python app.py
 
-    return : home.html
+    Return File : home.html
     
-    rtype : HTML
+    Return type : HTML
 
     """
 
@@ -44,9 +53,9 @@ def load_login_page():
 
     Description : The "load_login_page" function is used to call the Register and Login page from python app.py
 
-    return : login_signup.html
+    Return File : login_signup.html
     
-    rtype : HTML
+    Return type : HTML
 
     """
 
@@ -60,9 +69,9 @@ def login_signup():
 
     Description : The section of the "login_signup" function is used to login the customer details into the database using login_signup.html from python app.py
 
-    return : profile.html
+    Return File : profile.html
     
-    rtype : HTML
+    Return type : HTML
 
     """
   
@@ -87,9 +96,9 @@ def login_signup():
 
     Description : The section of the "login_signup" function is used to register the customer details into the database using login_signup.html from python app.py
 
-    return : login_signup.html
+    Return File : login_signup.html
     
-    rtype : HTML
+    Return type : HTML
 
     """
     
@@ -109,11 +118,11 @@ def load_bookings_page():
 
     """
 
-    Description : Description : The "load_bookings_page" function is used to call the Bookings/ Rides page from python app.py
+    Description : The "load_bookings_page" function is used to call the Bookings/ Rides page from python app.py
 
-    return : bookings.html
+    Return File : bookings.html
     
-    rtype : HTML
+    Return type : HTML
 
     """
 
@@ -125,11 +134,11 @@ def load_profile_page():
 
     """
 
-    Description : Description : The "load_profile_page" function is used to call the profiles page from python app.py
+    Description : The "load_profile_page" function is used to call the profiles page from python app.py
 
-    return : profile.html
+    Return File : profile.html
     
-    rtype : HTML
+    Return type : HTML
 
     """
  
@@ -141,11 +150,11 @@ def load_payment_page():
 
     """
 
-    Description : Description : The "load_payment_page" function is used to call the payment page from python app.py
+    Description : The "load_payment_page" function is used to call the payment page from python app.py
 
-    return : payment.html
+    Return File : payment.html
     
-    rtype : HTML
+    Return type : HTML
 
     """
  
