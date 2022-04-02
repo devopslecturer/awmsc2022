@@ -1,0 +1,39 @@
+name: Pages
+on:
+  push:
+    branches: Sphinx
+  pull_request:
+    branches: Sphinx
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/setup-python@v2
+    - uses: actions/checkout@master
+      with:
+        fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
+    - name : Install dependencies
+      run : pip install sphinx_rtd_theme
+    - name : Check the location
+      run : pwd
+    - name : Check the contents of app.py
+      run : cat /home/runner/work/awmsc2022/awmsc2022/app.py
+    - name : Copy the app.py file
+      run : cp /home/runner/work/awmsc2022/awmsc2022/app.py /home/runner/work/awmsc2022/awmsc2022/docs/
+    - name : Check the contents of app.py in the new location
+      run : cat /home/runner/work/awmsc2022/awmsc2022/docs/app.py
+    - name : Copy the test_app.py file
+      run : cp /home/runner/work/awmsc2022/awmsc2022/test_app.py /home/runner/work/awmsc2022/awmsc2022/docs/
+    - name : Check the contents of app.py in the new location
+      run : cat /home/runner/work/awmsc2022/awmsc2022/docs/test_app.py  
+    - name : Check the location
+      run : pwd
+    - name : Create apidoc
+      run : sphinx-apidoc -o /home/runner/work/awmsc2022/awmsc2022/docs/ .
+    - name: Build and Commit
+      uses: sphinx-notes/pages@v2
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: gh-pages
