@@ -30,7 +30,7 @@ jobs:
     - name: deploy to cluster
       uses: kodermax/kubectl-aws-eks@master
       env:
-        KUBECONFIG: ./KUBECONFIG
+        KUBECONFIG_PATH: /home/runner/work/devopslecturer/awmsc2022/KUBECONFIG
         DOCKER_REGISTRY: hub.docker.com
         DOCKERHUB_REPOSITORY: wwa-app
         IMAGE_TAG: v1
@@ -40,6 +40,6 @@ jobs:
     - name: verify deployment
       uses: kodermax/kubectl-aws-eks@master
       env:
-        KUBECONFIG: ./KUBECONFIG
+        KUBECONFIG_PATH: /home/runner/work/devopslecturer/awmsc2022/KUBECONFIG
       with:
         args: rollout status deployment/wwa-app
