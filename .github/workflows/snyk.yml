@@ -1,5 +1,9 @@
 name: Security Testing workflow for Python using Snyk
-on: push
+on:
+  push:
+    branches: [ Develop ]
+  pull_request:
+    branches: [ Develop ]
 jobs:
   security:
     runs-on: ubuntu-latest
