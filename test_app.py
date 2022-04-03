@@ -1,7 +1,6 @@
-import datetime
-import logging
-
-import pytest
+# import datetime
+# import logging
+# import pytest
 from app import app
 
 
@@ -10,11 +9,11 @@ def test_signup_page():
 
     """
 
-    Description : Description : The "test_signup_page" function is used to test the register/sign up page from python test_app.py
+    Description : The "test_signup_page" function is used to test the register/sign up page from python test_app.py
 
-    return : status_code
+    Return File : status_code
     
-    rtype : integer
+    Return Type : integer
 
     """
  
@@ -32,11 +31,11 @@ def test_payment_page():
 
     """
 
-    Description : Description : The "test_payment_page" function is used to test the payment page from python test_app.py
+    Description : The "test_payment_page" function is used to test the payment page from python test_app.py
 
-    return : status_code
+    Return File : status_code
     
-    rtype : integer
+    Return Type : integer
 
     """
  
@@ -50,11 +49,11 @@ def test_home_page():
 
     """
 
-    Description : Description : The "test_home_page" function is used to test the Home page from python test_app.py
+    Description : The "test_home_page" function is used to test the Home page from python test_app.py
 
-    return : status_code
+    Return File : status_code
     
-    rtype : integer
+    Return Type : integer
 
     """
  
@@ -68,11 +67,11 @@ def test_booking_page():
 
     """
 
-    Description : Description : The "test_booking_page" function is used to test the Bookings/ Ride page from python test_app.py
+    Description : The "test_booking_page" function is used to test the Bookings/ Ride page from python test_app.py
 
-    return : status_code
+    Return File : status_code
     
-    rtype : integer
+    Return Type : integer
 
     """
  
@@ -86,11 +85,11 @@ def test_profile_page():
 
     """
 
-    Description : Description : The "test_profile_page" function is used to test the profiles page from python test_app.py
+    Description : The "test_profile_page" function is used to test the profiles page from python test_app.py
 
-    return : status_code
+    Return File : status_code
     
-    rtype : integer
+    Return Type : integer
 
     """
  
