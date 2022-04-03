@@ -3,7 +3,6 @@ from flask_mysqldb import MySQL
 
 """
 app.py code is shown here. This is a functionality to test the sphinx for auto documentation.
-
 """
 
 app = Flask(__name__)
