@@ -29,7 +29,7 @@ jobs:
         
     - name: Install and configure kubectl
       env:
-        KUBECONFIG_PATH: /home/runner/work/devopslecturer/awmsc2022/KUBECONFIG
+        KUBECONFIG_PATH: ./KUBECONFIG
       run: |
         VERSION=$(curl --silent https://storage.googleapis.com/kubernetes-release/release/stable.txt)
         curl https://storage.googleapis.com/kubernetes-release/release/$VERSION/bin/linux/amd64/kubectl \
