@@ -160,6 +160,22 @@ def load_payment_page():
  
     return render_template('payment.html')
 
+    # route to bookings page 
+@app.route('/paymentsucess.html')
+def load_payment_success_page():
+
+    """
+
+    Description : The "load_payment_success_page" function is used to call the payment success page from python app.py
+
+    Return File : paymentsuccess.html
+    
+    Return Type : HTML
+
+    """
+
+    return render_template('paymentsucess.html')
+
 if __name__ == '__main__':
     app.debug = True
     app.run()
