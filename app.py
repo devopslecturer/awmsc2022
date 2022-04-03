@@ -3,20 +3,29 @@ from flask_mysqldb import MySQL
 
 """
 app.py code is shown here. This is a functionality to test the sphinx for auto documentation.
-
 """
 
 app = Flask(__name__)
 mysql = MySQL(app)
 app.config['MYSQL_HOST'] = 'sql4.freemysqlhosting.net'
-app.config['MYSQL_USER'] = 'sql4480309'
-app.config['MYSQL_PASSWORD'] = 'ywtgHyDEsc'
-app.config['MYSQL_DB'] = 'sql4480309'
+app.config['MYSQL_USER'] = 'sql4483371'
+app.config['MYSQL_PASSWORD'] = 'DQa8y6xrSQ'
+app.config['MYSQL_DB'] = 'sql4483371'
 app.config['MYSQL_PORT'] = 3306
 
 # route to home page when / is present in url
 @app.route('/')
 def index():
+
+    """
+
+    Description : The "index" function is used to handle the \/\ character in the URL while calling from app.py
+
+    Return File : home.html
+    
+    Return Type : HTML
+
+    """
 
     return render_template('home.html')
 
@@ -28,9 +37,9 @@ def load_home_page():
 
     Description : The "load_home_page" function is used to call the Homepage from python app.py
 
-    return : home.html
+    Return File : home.html
     
-    rtype : HTML
+    Return Type : HTML
 
     """
 
@@ -44,9 +53,9 @@ def load_login_page():
 
     Description : The "load_login_page" function is used to call the Register and Login page from python app.py
 
-    return : login_signup.html
+    Return File : login_signup.html
     
-    rtype : HTML
+    Return Type : HTML
 
     """
 
@@ -60,9 +69,9 @@ def login_signup():
 
     Description : The section of the "login_signup" function is used to login the customer details into the database using login_signup.html from python app.py
 
-    return : profile.html
+    Return File : profile.html
     
-    rtype : HTML
+    Return Type : HTML
 
     """
   
@@ -87,9 +96,9 @@ def login_signup():
 
     Description : The section of the "login_signup" function is used to register the customer details into the database using login_signup.html from python app.py
 
-    return : login_signup.html
+    Return File : login_signup.html
     
-    rtype : HTML
+    Return Type : HTML
 
     """
     
@@ -109,11 +118,11 @@ def load_bookings_page():
 
     """
 
-    Description : Description : The "load_bookings_page" function is used to call the Bookings/ Rides page from python app.py
+    Description : The "load_bookings_page" function is used to call the Bookings/ Rides page from python app.py
 
-    return : bookings.html
+    Return File : bookings.html
     
-    rtype : HTML
+    Return Type : HTML
 
     """
 
@@ -125,11 +134,11 @@ def load_profile_page():
 
     """
 
-    Description : Description : The "load_profile_page" function is used to call the profiles page from python app.py
+    Description : The "load_profile_page" function is used to call the profiles page from python app.py
 
-    return : profile.html
+    Return File : profile.html
     
-    rtype : HTML
+    Return Type : HTML
 
     """
  
@@ -141,11 +150,11 @@ def load_payment_page():
 
     """
 
-    Description : Description : The "load_payment_page" function is used to call the payment page from python app.py
+    Description : The "load_payment_page" function is used to call the payment page from python app.py
 
-    return : payment.html
+    Return File : payment.html
     
-    rtype : HTML
+    Return Type : HTML
 
     """
  
