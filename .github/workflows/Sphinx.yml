@@ -20,16 +20,14 @@ jobs:
       run : cat /home/runner/work/awmsc2022/awmsc2022/app.py
     - name : Copy the app.py file
       run : cp /home/runner/work/awmsc2022/awmsc2022/app.py /home/runner/work/awmsc2022/awmsc2022/docs/
-    - name : Check the contents of app.py in the new location
-      run : cat /home/runner/work/awmsc2022/awmsc2022/docs/app.py
     - name : Copy the test_app.py file
       run : cp /home/runner/work/awmsc2022/awmsc2022/test_app.py /home/runner/work/awmsc2022/awmsc2022/docs/
-    - name : Check the contents of test_app.py in the new location
-      run : cat /home/runner/work/awmsc2022/awmsc2022/docs/test_app.py  
     - name : Check the location
       run : pwd
     - name : Create apidoc
       run : sphinx-apidoc -o /home/runner/work/awmsc2022/awmsc2022/docs/ .
+    - name : Delete the existing branch if exists
+      run : git branch -d Flask-sphinx
     - name: Build and Commit
       uses: sphinx-notes/pages@v2
     - name: Push changes
