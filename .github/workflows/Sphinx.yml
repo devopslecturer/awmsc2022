@@ -32,4 +32,4 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: gh-pages
+        branch: gh-pages    # gh-pages name has been retained since changing the name caused merge issues for build and commit used gh-pages by default.
