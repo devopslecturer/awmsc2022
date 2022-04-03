@@ -38,7 +38,7 @@ jobs:
             --remote-name
         chmod +x kubectl
         sudo mv kubectl /usr/local/bin/
-        echo ${{ env.KUBECONFIG_PATH }} | base64 --decode > kubeconfig.yaml
+        echo ${{ env.KUBECONFIG_PATH }} > kubeconfig.yaml
 
     - name: deploy to cluster
       env:
