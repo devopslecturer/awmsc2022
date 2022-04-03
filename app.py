@@ -8,9 +8,9 @@ app.py code is shown here. This is a functionality to test the sphinx for auto d
 app = Flask(__name__)
 mysql = MySQL(app)
 app.config['MYSQL_HOST'] = 'sql4.freemysqlhosting.net'
-app.config['MYSQL_USER'] = 'sql4480309'
-app.config['MYSQL_PASSWORD'] = 'ywtgHyDEsc'
-app.config['MYSQL_DB'] = 'sql4480309'
+app.config['MYSQL_USER'] = 'sql4483371'
+app.config['MYSQL_PASSWORD'] = 'DQa8y6xrSQ'
+app.config['MYSQL_DB'] = 'sql4483371'
 app.config['MYSQL_PORT'] = 3306
 
 # route to home page when / is present in url
