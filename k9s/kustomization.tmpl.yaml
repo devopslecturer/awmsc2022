@@ -4,6 +4,6 @@ resources:
 - service.yaml
 
 images:
-- name: amazonaws.com/kubernetes-github-actions
+- name: snehalshirsath/wwa-app:v1
   newName: ${DOCKER_REPOSITORY}
   newTag: ${IMAGE_TAG}
