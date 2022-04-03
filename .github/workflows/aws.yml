@@ -26,17 +26,32 @@ jobs:
       with:
         username: ${{ secrets.DOCKER_HUB_USERNAME }}
         password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
-
-    - name: deploy to cluster
-      uses: kodermax/kubectl-aws-eks@master
+        
+    - name: Install and configure kubectl
       env:
         KUBECONFIG_PATH: /home/runner/work/devopslecturer/awmsc2022/KUBECONFIG
+      run: |
+        VERSION=$(curl --silent https://storage.googleapis.com/kubernetes-release/release/stable.txt)
+        curl https://storage.googleapis.com/kubernetes-release/release/$VERSION/bin/linux/amd64/kubectl \
+            --progress-bar \
+            --location \
+            --remote-name
+        chmod +x kubectl
+        sudo mv kubectl /usr/local/bin/
+        echo ${{ env.KUBECONFIG_PATH }} | base64 --decode > kubeconfig.yaml
+
+    - name: deploy to cluster
+      env:
         DOCKER_REGISTRY: hub.docker.com
-        DOCKERHUB_REPOSITORY: wwa-app
+        DOCKER_REPOSITORY: wwa-app
         IMAGE_TAG: v1
-      with:
-        args: set image deployment/$DOCKERHUB_REPOSITORY $DOCKERHUB_REPOSITORY=$DOCKER_REGISTRY/$DOCKERHUB_REPOSITORY:$IMAGE_TAG
-        
+      run: |
+        export DOCKER_REPOSITORY=${{ env.DOCKER_REGISTRY }}/${{ env.DOCKER_REPOSITORY }}
+        export IMAGE_TAG=${{ env.IMAGE_TAG }}
+        export KUBECONFIG=kubeconfig.yaml
+        envsubst < k8s/kustomization.tmpl.yaml > k8s/kustomization.yaml
+        kubectl kustomize k8s | kubectl apply -f -
+          
     - name: verify deployment
       uses: kodermax/kubectl-aws-eks@master
       env:
