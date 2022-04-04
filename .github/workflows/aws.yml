@@ -41,15 +41,16 @@ jobs:
         DOCKER_REPOSITORY: wwa-app
         IMAGE_TAG: v1
       run: |
+        echo "${{ secrets.KUBECONFIG }}" >> kubeconfig
         export DOCKER_REPOSITORY=${{ env.DOCKER_REGISTRY }}/${{ env.DOCKER_REPOSITORY }}
         export IMAGE_TAG=${{ env.IMAGE_TAG }}
-        export KUBECONFIG=${{secrets.KUBECONFIG}}
+        export KUBECONFIG=./kubeconfig
         envsubst < k8s/kustomization.tmpl.yaml > k8s/kustomization.yaml
         kubectl kustomize k8s | kubectl apply -f -
           
     - name: verify deployment
       uses: kodermax/kubectl-aws-eks@master
       env:
-        KUBECONFIG: ${{ secrets.KUBECONFIG }}
+        KUBECONFIG: '.\kubeconfig'
       with:
         args: rollout status deployment/wwa-app
