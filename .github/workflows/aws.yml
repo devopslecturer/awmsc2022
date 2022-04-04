@@ -41,7 +41,6 @@ jobs:
         DOCKER_REPOSITORY: wwa-app
         IMAGE_TAG: v1
       run: |
-        #echo ${{ secrets.KUBECONFIG }} > ./kubeconfig.yaml
         export DOCKER_REPOSITORY=${{ env.DOCKER_REGISTRY }}/${{ env.DOCKER_REPOSITORY }}
         export IMAGE_TAG=${{ env.IMAGE_TAG }}
         export KUBECONFIG=${{secrets.KUBECONFIG}}
