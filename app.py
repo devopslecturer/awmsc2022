@@ -173,7 +173,10 @@ def load_payment_success_page():
     Return Type : HTML
 
     """
-
+    cursor = mysql.connection.cursor()
+    cursor.execute('''INSERT INTO payment_details (pay_id, pay_status) VALUES ('default', 'completed') ''')
+    mysql.connection.commit()
+    cursor.close()
     return render_template('paymentsucess.html')
 
 if __name__ == '__main__':

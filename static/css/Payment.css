@@ -489,7 +489,7 @@ xpopup
 }
 .cd-popup-container .cd-buttons li {
   float: left;
-  width: 50%;
+  width: 100%;
   list-style: none;
 }
 .cd-popup-container .cd-buttons a {
