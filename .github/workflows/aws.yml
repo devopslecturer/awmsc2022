@@ -49,7 +49,7 @@ jobs:
       run: |
         export DOCKER_REPOSITORY=${{ env.DOCKER_REGISTRY }}/${{ env.DOCKER_REPOSITORY }}
         export IMAGE_TAG=${{ env.IMAGE_TAG }}
-        cat <<EOF >> kubeconfig.yaml
+        cat <<< '
         apiVersion: v1
         clusters:
         - cluster:
@@ -80,8 +80,7 @@ jobs:
             env:
             - name: AWS_STS_REGIONAL_ENDPOINTS
               value: regional
-            provideClusterInfo: false
-        EOF
+            provideClusterInfo: false > kubeconfig.yaml
         envsubst < k8s/kustomization.tmpl.yaml > k8s/kustomization.yaml
         kubectl kustomize k8s | kubectl apply -f -
           
