@@ -50,7 +50,5 @@ jobs:
           
     - name: verify deployment
       uses: kodermax/kubectl-aws-eks@master
-      env:
-        KUBECONFIG: '.\kubeconfig'
       with:
         args: rollout status deployment/wwa-app
