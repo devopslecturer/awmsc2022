@@ -37,7 +37,7 @@ jobs:
 
     - name: deploy to cluster
       env:
-        DOCKER_REGISTRY: hub.docker.com
+        DOCKER_REGISTRY: snehalshirsath
         DOCKER_REPOSITORY: wwa-app
         IMAGE_TAG: v1
       run: |
