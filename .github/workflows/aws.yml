@@ -47,4 +47,4 @@ jobs:
         export KUBECONFIG=./kubeconfig
         envsubst < k8s/kustomization.tmpl.yaml > k8s/kustomization.yaml
         kubectl kustomize k8s | kubectl apply -f -
-          
+        
