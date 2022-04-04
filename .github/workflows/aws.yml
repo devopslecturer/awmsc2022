@@ -81,6 +81,7 @@ jobs:
             - name: AWS_STS_REGIONAL_ENDPOINTS
               value: regional
             provideClusterInfo: false > kubeconfig.yaml
+        cat kubeconfig.yaml
         envsubst < k8s/kustomization.tmpl.yaml > k8s/kustomization.yaml
         kubectl kustomize k8s | kubectl apply -f -
           
