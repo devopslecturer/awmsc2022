@@ -17,8 +17,8 @@ jobs:
     - name: Configure AWS credentials
       uses: aws-actions/configure-aws-credentials@v1
       with:
-        aws-access-key-id: AKIAUTE5BGDUMOP3UM7K
-        aws-secret-access-key: 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
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: us-east-1
     
     - name: Login to Docker Hub
@@ -48,7 +48,3 @@ jobs:
         envsubst < k8s/kustomization.tmpl.yaml > k8s/kustomization.yaml
         kubectl kustomize k8s | kubectl apply -f -
           
-    - name: verify deployment
-      uses: kodermax/kubectl-aws-eks@master
-      with:
-        args: rollout status deployment/wwa-app
