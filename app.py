@@ -63,7 +63,7 @@ def load_login_page():
 
 # route to check whether login or signup to render depending on method call
 @app.route('/login_signup_check', methods = ['GET','POST'])
-def login_signup():
+def login_signup(): 
     
     """
 
@@ -90,7 +90,7 @@ def login_signup():
         else: 
             mysql.connection.commit()
             cursor.close()
-            return '<h1>not matched</h1>'
+            return render_template('error.html')
             
     """
 
