@@ -34,7 +34,6 @@ jobs:
         echo "$(cat kubectl.sha256)  kubectl" | sha256sum --check
         sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
         kubectl version --client
-        echo ${{ secrets.KUBECONFIG }} > kubeconfig.yaml
 
     - name: deploy to cluster
       env:
@@ -42,6 +41,7 @@ jobs:
         DOCKER_REPOSITORY: wwa-app
         IMAGE_TAG: v1
       run: |
+        echo ${{ secrets.KUBECONFIG }} | base64 --decode > kubeconfig.yaml
         export DOCKER_REPOSITORY=${{ env.DOCKER_REGISTRY }}/${{ env.DOCKER_REPOSITORY }}
         export IMAGE_TAG=${{ env.IMAGE_TAG }}
         export KUBECONFIG=kubeconfig.yaml
