@@ -42,6 +42,7 @@ Snehal Shirsath						07/03/2022 to 13/03/2022
 Muhammed Shafeeq					14/03/2022 to 20/03/2022
 Snehal Khairnar						21/03/2021 to 27/03/2021
 Snehal Shirsath						28/03/2022 to 03/04/2022
+Anup Jacob						04/04/2022 to 08/04/2022
 
 ### Product Owner
 Member Name							Date
@@ -62,6 +63,7 @@ Muhammed Shafeeq					07/03/2022 to 13/03/2022
 Varnit Rohilla						14/03/2022 to 20/03/2022
 Anup Jacob						21/03/2021 to 27/03/2021
 Sreejith Jayasree Purushothaman				28/03/2022 to 03/04/2022
+Snehal Shirsath						04/04/2022 to 08/04/2022
 
 ### Team Members
 Snehal Shirsath
