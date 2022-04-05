@@ -7,9 +7,9 @@ on:
         required: true
       AWS_SECRET_ACCESS_KEY:
         required: true
-      DOCKER_HUB_USERNAME:
+      username:
         required: true
-      DOCKER_HUB_ACCESS_TOKEN:
+      password:
         required: true
       KUBECONFIG:
         required: true
