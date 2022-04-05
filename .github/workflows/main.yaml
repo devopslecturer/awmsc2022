@@ -1,0 +1,21 @@
+name: Deploy
+
+on:
+  push:
+    branches: [ Flask_Initial_Setup ]
+  pull_request:
+    branches: [ Flask_Initial_Setup ]
+    
+jobs: 
+  
+- job: docker-image-build-push
+  steps:
+  - script: Docker CI started
+    condition: succeeded()
+
+- job: aws
+  steps:
+  - script: Application deployment started
+    dependsOn: docker-image-build-push
+    condition: succeeded()
+ 
