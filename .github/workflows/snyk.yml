@@ -1,9 +1,15 @@
 name: Security Testing workflow for Python using Snyk
+
 on:
-  push:
-    branches: [ Develop ]
-  pull_request:
-    branches: [ Develop ]
+  workflow_call:
+    inputs:
+      username:
+        required: false
+        type: string
+    secrets:
+      token:
+        required: false
+        
 jobs:
   security:
     runs-on: ubuntu-latest
