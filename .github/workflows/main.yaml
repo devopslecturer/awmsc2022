@@ -8,9 +8,9 @@ on:
 
 jobs:
   job1:
-    uses: ./.github/workflows/docker-image-build-push.yaml
+    uses: ./devopslecturer/awmsc2022/.github/workflows/docker-image-build-push.yaml
 
   job2:
     needs: job1
-    uses: ./.github/workflows/aws.yml
+    uses: ./devopslecturer/awmsc2022/.github/workflows/aws.yml
  
