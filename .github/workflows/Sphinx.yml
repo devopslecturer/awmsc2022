@@ -1,10 +1,11 @@
 name: Sphinx workflow for autodocumentation
 
 on:
-  workflow_call:
-    secrets:
-      GITHUB_TOKEN:
-        required: true
+  on:
+  push:
+    branches: Develop
+  pull_request:
+    branches: Develop
 
 jobs:
   build:
