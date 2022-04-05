@@ -1,10 +1,14 @@
 name: Deploy
 
 on:
-  push:
-    branches: [ docker_CD ]
-  pull_request:
-    branches: [ docker_CD ]
+  workflow_call:
+    inputs:
+      username:
+        required: false
+        type: string
+    secrets:
+      token:
+        required: false
  
 jobs:
   deploy:
