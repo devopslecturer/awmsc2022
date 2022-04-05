@@ -1,11 +1,15 @@
 name: SonarQube Testing
+
 on:
-  push:
-    branches:
-      - develop # or the name of your main branch
-  pull_request:
-    branches:
-      - develop
+  workflow_call:
+    inputs:
+      username:
+        required: false
+        type: string
+    secrets:
+      token:
+        required: false
+
 jobs:
   build:
     name: Build

@@ -4,10 +4,14 @@
 name: Pytest check
 
 on:
-  push:
-    branches: [ Develop ]
-  pull_request:
-    branches: [ Develop ]
+  workflow_call:
+    inputs:
+      username:
+        required: false
+        type: string
+    secrets:
+      token:
+        required: false
 
 jobs:
   build:

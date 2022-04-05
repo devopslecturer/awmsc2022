@@ -1,0 +1,24 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: wwa-app
+  namespace: kubernetes-github-actions
+  labels:
+    app: wwa-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: wwa-app
+  template:
+    metadata:
+      labels:
+        app: wwa-app
+    spec:
+      containers:
+      - name: website
+        image: snehalshirsath/wwa-app:v1
+        ports:
+        - containerPort: 5000
+          name: wwa-app

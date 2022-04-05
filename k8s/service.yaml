@@ -1,0 +1,16 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+    name: wwa-app
+    namespace: kubernetes-github-actions
+    labels:
+        app: wwa-app
+spec:
+    type: LoadBalancer
+    selector:
+        app: wwa-app
+    ports:
+    - port: 80
+      protocol: TCP  
+      targetPort: 5000
