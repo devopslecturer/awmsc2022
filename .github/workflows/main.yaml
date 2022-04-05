@@ -6,11 +6,27 @@ on:
   pull_request:
     branches: [ docker_CD ]
 
-jobs:
-  job1:
-    uses: ./devopslecturer/awmsc2022/.github/workflows/docker-image-build-push.yaml
 
-  job2:
-    needs: job1
-    uses: ./devopslecturer/awmsc2022/.github/workflows/aws.yml
+
+
+jobs:
+  docker-CI:
+    name: deploy to cluster
+    runs-on: ubuntu-latest
+    steps:
+      - name: Config for docker CI
+  # You may pin to the exact commit or the version.
+  # uses: Monorepo-Actions/config-for-actions@47b0824054f9eef4a5d1b2df11f4c76b9b0d9117
+        uses: Monorepo-Actions/config-for-actions@v1.0.0
+        with:
+          config_files: .github/workflows/docker-image-build-push.yaml # default is .github/config-for-actions.yml
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: docker-CI
+    steps:
+      - name: Config for deploy
+        uses: Monorepo-Actions/config-for-actions@v1.0.0
+        with:
+          config_files: ./devopslecturer/awmsc2022/.github/workflows/aws.yml # default is .github/config-for-actions.yml
  
