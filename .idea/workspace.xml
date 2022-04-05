@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cba72680-3481-4506-b201-03ffb830d98d" name="Changes" comment="Add flask framework">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/Payment.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Payment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wicked Adventures.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/Wicked Adventures.pptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +57,7 @@
       <recent name="D:\PyCharm Community Edition 2021.2.2\awmsc2022\Archive" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in test_app.py">
+  <component name="RunManager" selected="Python.app">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="WednesdayWicked" />
       <option name="INTERPRETER_OPTIONS" value="" />
