@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cba72680-3481-4506-b201-03ffb830d98d" name="Changes" comment="Add flask framework" />
+    <list default="true" id="cba72680-3481-4506-b201-03ffb830d98d" name="Changes" comment="Add flask framework">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wicked Adventures.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/Wicked Adventures.pptx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,27 +79,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="app.test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="WednesdayWicked" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="WednesdayWicked" type="Python.FlaskServer">
       <module name="WednesdayWicked" />
       <option name="target" value="$PROJECT_DIR$/app.py" />
@@ -112,6 +94,20 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_app.test_payment_success_page" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="WednesdayWicked" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_app.test_payment_success_page&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests in C:/Personal Folder/LYIT/SEM 2/Paul/Project/Project/awmsc2022/app.test.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="WednesdayWicked" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -123,20 +119,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/app.test.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in C:/Personal Folder/LYIT/SEM 2/Paul/Project/Project/awmsc2022/test.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="WednesdayWicked" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -168,21 +150,35 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in test_app.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="WednesdayWicked" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_app.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.app" />
-      <item itemvalue="Python.app.test" />
-      <item itemvalue="Python tests.Python tests in app_test.py" />
       <item itemvalue="Python tests.Python tests in C:/Personal Folder/LYIT/SEM 2/Paul/Project/Project/awmsc2022/app.test.py" />
-      <item itemvalue="Python tests.Python tests in C:/Personal Folder/LYIT/SEM 2/Paul/Project/Project/awmsc2022/test.py" />
       <item itemvalue="Python tests.Python tests in app_test.py (1)" />
+      <item itemvalue="Python tests.Python tests in app_test.py" />
+      <item itemvalue="Python tests.Python tests in test_app.py" />
+      <item itemvalue="Python tests.Python tests for test_app.test_payment_success_page" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests in test_app.py" />
+        <item itemvalue="Python tests.Python tests for test_app.test_payment_success_page" />
         <item itemvalue="Python tests.Python tests in app_test.py (1)" />
         <item itemvalue="Python tests.Python tests in app_test.py" />
         <item itemvalue="Python tests.Python tests in C:/Personal Folder/LYIT/SEM 2/Paul/Project/Project/awmsc2022/app.test.py" />
-        <item itemvalue="Python.app.test" />
-        <item itemvalue="Python tests.Python tests in C:/Personal Folder/LYIT/SEM 2/Paul/Project/Project/awmsc2022/test.py" />
       </list>
     </recent_temporary>
   </component>

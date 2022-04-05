@@ -1,5 +1,11 @@
 name: Security Testing workflow for Python using Snyk
-on: push
+
+on:
+  workflow_call:
+    secrets:
+      SNYK_API_KEY:
+        required: true
+        
 jobs:
   security:
     runs-on: ubuntu-latest
