@@ -4,11 +4,14 @@ name: CI
 
 # Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the Develop branch
-  push:
-    branches: [ Develop ]
-  pull_request:
-    branches: [ Develop ]
+  workflow_call:
+    inputs:
+      username:
+        required: false
+        type: string
+    secrets:
+      token:
+        required: false
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
