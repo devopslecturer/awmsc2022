@@ -7,14 +7,10 @@ on:
     branches: [ docker_CD ]
 
 jobs:
+  job1:
+    uses: ./.github/workflows/docker-image-build-push.yaml
 
-  job:
-    name: run multiple jobs
-    runs-on: ubuntu-latest
-    steps:
-      - name: docker CI
-        uses: ./.github/workflows/docker-image-build-push.yaml
-      
-      - name: AWS deploy
-        uses: ./.github/workflows/aws.yaml
+  job2:
+    needs: job1
+    uses: ./.github/workflows/aws.yaml
  
