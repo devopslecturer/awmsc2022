@@ -2,9 +2,9 @@ name: Deploy
 
 on:
   push:
-    branches: [ docker_CD ]
+    branches: [ Flask_Initial_Setup ]
   pull_request:
-    branches: [ docker_CD ]
+    branches: [ Flask_Initial_Setup ]
 
 jobs:
   static-testing:
