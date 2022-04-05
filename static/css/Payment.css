@@ -1,171 +1,432 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
 
-*{
-    font-family: 'Poppins', sans-serif;
-    margin:0; padding:0;
-    box-sizing: border-box;
-    outline: none; border: none;
-    text-decoration: none;
-    text-transform: uppercase;
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
-.container{
-    min-height: 100vh;
-    background: #eee;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-flow: column;
-    padding-bottom: 60px;
+.container {
+  min-height: 100vh;
+  background: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  padding-bottom: 60px;
 }
 
-.container form{
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0 10px 15px rgba(0,0,0,.1);
-    padding: 20px;
-    width: 600px;
-    padding-top: 160px;
+.container form {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 600px;
+  padding-top: 160px;
 }
 
-.container form .inputBox{
-    margin-top: 20px;
+.container form .inputBox {
+  margin-top: 20px;
 }
 
-.container form .inputBox span{
-    display: block;
-    color:#999;
-    padding-bottom: 5px;
+.container form .inputBox span {
+  display: block;
+  color: #999;
+  padding-bottom: 5px;
 }
 
 .container form .inputBox input,
-.container form .inputBox select{
-    width: 100%;
-    padding: 10px;
-    border-radius: 10px;
-    border:1px solid rgba(0,0,0,.3);
-    color:#444;
+.container form .inputBox select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  color: #444;
 }
 
-.container form .flexbox{
-    display: flex;
-    gap:15px;
+.container form .flexbox {
+  display: flex;
+  gap: 15px;
 }
 
-.container form .flexbox .inputBox{
-    flex:1 1 150px;
+.container form .flexbox .inputBox {
+  flex: 1 1 150px;
 }
 
-.container form .submit-btn{
-    width: 100%;
-    background:linear-gradient(45deg, blueviolet, deeppink);
-    margin-top: 20px;
-    padding: 10px;
-    font-size: 20px;
-    color:#fff;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: .2s linear;
+.container form .submit-btn {
+  width: 100%;
+  background: linear-gradient(45deg, blueviolet, deeppink);
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s linear;
 }
 
-.container form .submit-btn:hover{
-    letter-spacing: 2px;
-    opacity: .8;
+.container form .submit-btn:hover {
+  letter-spacing: 2px;
+  opacity: 0.8;
 }
 
-.container .card-container{
-    margin-bottom: -150px;
-    position: relative;
-    height: 250px;
-    width: 400px;
+.container .card-container {
+  margin-bottom: -150px;
+  position: relative;
+  height: 250px;
+  width: 400px;
 }
 
-.container .card-container .front{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0; left: 0;
-    background:linear-gradient(45deg, blueviolet, deeppink);
-    border-radius: 5px;
-    backface-visibility: hidden;
-    box-shadow: 0 15px 25px rgba(0,0,0,.2);
-    padding:20px;
-    transform:perspective(1000px) rotateY(0deg);
-    transition:transform .4s ease-out;
+.container .card-container .front {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(45deg, blueviolet, deeppink);
+  border-radius: 5px;
+  backface-visibility: hidden;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  transform: perspective(1000px) rotateY(0deg);
+  transition: transform 0.4s ease-out;
 }
 
-.container .card-container .front .image{
-    display: flex;
-    align-items:center;
-    justify-content: space-between;
-    padding-top: 10px;
+.container .card-container .front .image {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
 }
 
-.container .card-container .front .image img{
-    height: 50px;
+.container .card-container .front .image img {
+  height: 50px;
 }
 
-.container .card-container .front .card-number-box{
-    padding:30px 0;
-    font-size: 22px;
-    color:#fff;
+.container .card-container .front .card-number-box {
+  padding: 30px 0;
+  font-size: 22px;
+  color: #fff;
 }
 
-.container .card-container .front .flexbox{
-    display: flex;
+.container .card-container .front .flexbox {
+  display: flex;
 }
 
-.container .card-container .front .flexbox .box:nth-child(1){
-    margin-right: auto;
+.container .card-container .front .flexbox .box:nth-child(1) {
+  margin-right: auto;
 }
 
-.container .card-container .front .flexbox .box{
-    font-size: 15px;
-    color:#fff;
+.container .card-container .front .flexbox .box {
+  font-size: 15px;
+  color: #fff;
 }
 
-.container .card-container .back{
-    position: absolute;
-    top:0; left: 0;
-    height: 100%;
-    width: 100%;
-    background:linear-gradient(45deg, blueviolet, deeppink);
-    border-radius: 5px;
-    padding: 20px 0;
-    text-align: right;
-    backface-visibility: hidden;
-    box-shadow: 0 15px 25px rgba(0,0,0,.2);
-    transform:perspective(1000px) rotateY(180deg);
-    transition:transform .4s ease-out;
+.container .card-container .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(45deg, blueviolet, deeppink);
+  border-radius: 5px;
+  padding: 20px 0;
+  text-align: right;
+  backface-visibility: hidden;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  transform: perspective(1000px) rotateY(180deg);
+  transition: transform 0.4s ease-out;
 }
 
-.container .card-container .back .stripe{
-    background: #000;
-    width: 100%;
-    margin: 10px 0;
-    height: 50px;
+.container .card-container .back .stripe {
+  background: #000;
+  width: 100%;
+  margin: 10px 0;
+  height: 50px;
 }
 
-.container .card-container .back .box{
-    padding: 0 20px;
+.container .card-container .back .box {
+  padding: 0 20px;
 }
 
-.container .card-container .back .box span{
-    color:#fff;
-    font-size: 15px;
+.container .card-container .back .box span {
+  color: #fff;
+  font-size: 15px;
 }
 
-.container .card-container .back .box .cvv-box{
-    height: 50px;
-    padding: 10px;
-    margin-top: 5px;
-    color:#333;
-    background: #fff;
-    border-radius: 5px;
-    width: 100%;
+.container .card-container .back .box .cvv-box {
+  height: 50px;
+  padding: 10px;
+  margin-top: 5px;
+  color: #333;
+  background: #fff;
+  border-radius: 5px;
+  width: 100%;
 }
 
-.container .card-container .back .box img{
-    margin-top: 30px;
-    height: 30px;
+.container .card-container .back .box img {
+  margin-top: 30px;
+  height: 30px;
 }
+
+/* https://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+main {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* -------------------------------- 
+
+Primary style
+
+-------------------------------- */
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 100%;
+  font-family: "Lato", sans-serif;
+  color: #8f9cb5;
+  background-color: #ffd88f;
+}
+
+a {
+  color: #35a785;
+  text-decoration: none;
+}
+
+/* -------------------------------- 
+
+Modules - reusable parts of our design
+
+-------------------------------- */
+.img-replace {
+  /* replace text with an image */
+  display: inline-block;
+  overflow: hidden;
+  text-indent: 100%;
+  color: transparent;
+  white-space: nowrap;
+}
+
+/* -------------------------------- 
+
+xnugget info 
+
+-------------------------------- */
+.cd-nugget-info {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  bottom: 0;
+  left: 0;
+}
+.cd-nugget-info a {
+  position: relative;
+  font-size: 14px;
+  color: #5e6e8d;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.no-touch .cd-nugget-info a:hover {
+  opacity: 0.8;
+}
+.cd-nugget-info span {
+  vertical-align: middle;
+  display: inline-block;
+}
+.cd-nugget-info span svg {
+  display: block;
+}
+.cd-nugget-info .cd-nugget-info-arrow {
+  fill: #5e6e8d;
+}
+
+/* -------------------------------- 
+
+Main components 
+
+-------------------------------- */
+header {
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  background-color: #5e6e8d;
+  color: #fff;
+}
+header h1 {
+  font-size: 20px;
+  font-size: 1.25rem;
+}
+
+.cd-popup-trigger {
+  display: inline-block;
+  /* width: 170px; */
+  height: 50px;
+  line-height: 50px;
+  margin: 50px 0 0 0;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 50em;
+  background: linear-gradient(45deg, blueviolet, deeppink);
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.07);
+  width: 100%;
+  /* background:linear-gradient(45deg, blueviolet, deeppink); */
+  margin-top: 20px;
+  /* padding: 10px; */
+
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+@media only screen and (min-width: 1170px) {
+  .cd-popup-trigger {
+    margin: 6em auto;
+  }
+}
+

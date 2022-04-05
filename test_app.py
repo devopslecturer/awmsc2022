@@ -98,12 +98,21 @@ def test_profile_page():
     print(resp.status_code)
     assert resp.status_code == 200
 
-# Function to test paymentsuccess.html
-#def test_payment_success_page():
-    #client = app.test_client()
-    #resp = client.get('/paymentsuccess.html')
-    #print(resp.status_code)
-    #assert resp.status_code == 200
+#Function to test paymentsuccess.html
+def test_payment_success_page():
+    """
+
+       Description : The "test_payment_success_page" function is used to test the payment success page from python test_app.py
+
+       Return File : status_code
+
+       Return Type : integer
+
+       """
+    client = app.test_client()
+    resp = client.get('/paymentsucess.html')
+    print(resp.status_code)
+    assert resp.status_code == 200
 
 
 

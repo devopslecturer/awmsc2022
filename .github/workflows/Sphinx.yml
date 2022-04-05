@@ -1,9 +1,11 @@
 name: Sphinx workflow for autodocumentation
+
 on:
-  push:
-    branches: Flask_Initial_Setup
-  pull_request:
-    branches: Flask_Initial_Setup
+  workflow_call:
+    secrets:
+      GITHUB_TOKEN:
+        required: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
