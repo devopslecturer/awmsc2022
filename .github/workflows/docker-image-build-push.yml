@@ -35,3 +35,4 @@ jobs:
         file: ./Dockerfile
         push: true
         tags: ${{ secrets.DOCKER_HUB_USERNAME }}/wwa-app:v1
+

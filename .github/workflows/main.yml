@@ -2,9 +2,9 @@ name: CI-CD
 
 on:
   push:
-    branches: [ Flask_Initial_Setup ]
+    branches: [ Develop ]
   pull_request:
-    branches: [ Flask_Initial_Setup ]
+    branches: [ Develop ]
 
 jobs:
 

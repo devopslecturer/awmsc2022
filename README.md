@@ -229,3 +229,7 @@ Master Branch
 The teams team's velocity is calculated by dividing the the number of points burned each sprint divided by no of sprints. The Velocity chart from Jira (below) is used for this calculation.
 
 The teams current story point velocity is "<Choose the number!>".
+	
+	
+	
+	
