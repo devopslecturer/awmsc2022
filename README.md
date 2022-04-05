@@ -231,3 +231,5 @@ The teams team's velocity is calculated by dividing the the number of points bur
 The teams current story point velocity is "<Choose the number!>".
 	
 	
+	
+	
