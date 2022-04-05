@@ -6,7 +6,6 @@ on:
   pull_request:
     branches: [ docker_CD ]
 
-
 jobs:
   docker-CI:
     uses: devopslecturer/awmsc2022/.github/workflows/docker-image-build-push.yml@docker_CD
