@@ -30,20 +30,20 @@ def index():
     return render_template('home.html')
 
 # route to home page when url points to "/home"
-@app.route('/home.html')
-def load_home_page():
+# @app.route('/home.html')
+# def load_home_page():
 
-    """
+#     """
 
-    Description : The "load_home_page" function is used to call the Homepage from python app.py
+#     Description : The "load_home_page" function is used to call the Homepage from python app.py
 
-    Return File : home.html
+#     Return File : home.html
     
-    Return Type : HTML
+#     Return Type : HTML
 
-    """
+#     """
 
-    return render_template('home.html')
+#     return render_template('home.html')
 
 # route to login_signup page when url points to "/home"
 @app.route('/login_signup')

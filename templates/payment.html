@@ -8,6 +8,7 @@
     <!-- custom css file link  -->
     <link rel="stylesheet" href="../static/css/Payment.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
 </head>
 
 <body>
@@ -46,7 +47,7 @@
 
         </div>
 
-        <form action="">
+        <form action="/paymentsucess.html">
             <div class="inputBox">
                 <span>card number</span>
                 <input type="text" maxlength="16" class="card-number-input" minlength="16" required>
@@ -102,52 +103,16 @@
                 </div>
 
             </div>
-            <!-- <a href="./paymentsucess.html">
-                <input type="submit" value="submit" class="submit-btn">
-            </a> -->
-            <a href="#0" type="submit" value="submit" class="cd-popup-trigger">Complete Order</a>
 
-            <div class="cd-popup" role="alert">
-                <div class="cd-popup-container">
-                    <p>Health and Safety has always been important in responsible adventure travel. While no activity
-                        can claim to be 100% safe, there are many ways to mitigate risk and adventure travel
-                        professionals are experts at that. The COVID-19 pandemic has added a new layer of risk both in
-                        daily life and in travel experiences, so the Adventure Travel Trade Association, along with a
-                        team of technical experts, created the Adventure Travel COVID-19 Health & Safety Guidelines
-                        using international industry standards, WHO, governments and tour
-                        operators. </p>
-                    <ul class="cd-buttons">
-                        <li><a href="{{url_for('load_payment_success_page')}}">continue</a></li>
-                        <!-- <li><a href="#0" class="cd-popup-close">No</a></li> -->
-                    </ul>
-                    <a href="#0" class="cd-popup-close img-replace">Close</a>
-                </div> <!-- cd-popup-container -->
-            </div> <!-- cd-popup -->
+            <button type="submit" value="submit" class="submit-btn">
+                submit
+            </button>
+
+        </form>
 
     </div>
 
     <script>
-        jQuery(document).ready(function ($) {
-            //open popup
-            $('.cd-popup-trigger').on('click', function (event) {
-                event.preventDefault();
-                $('.cd-popup').addClass('is-visible');
-            });
-
-            //close popup
-            $('.cd-popup').on('click', function (event) {
-                if ($(event.target).is('.cd-popup-close') || $(event.target).is('.cd-popup')) {
-                    event.preventDefault();
-                    $(this).removeClass('is-visible');
-                }
-            });
-            //close popup when clicking the esc keyboard button
-            $(document).keyup(function (event) {
-                if (event.which == '27') {
-                    $('.cd-popup').removeClass('is-visible');
-                }
-            });
-        });
 
         document.querySelector('.card-number-input').oninput = () => {
             document.querySelector('.card-number-box').innerText = document.querySelector('.card-number-input').value;
