@@ -7,14 +7,8 @@ on:
     branches: [ Flask_Initial_Setup ]
 
 jobs:
-  static-testing:
-    uses: devopslecturer/awmsc2022/.github/workflows/SonarQube.yml@Flask_Initial_Setup
-    secrets:
-      SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-      SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
 
   unit-testing:
-    needs: static-testing
     uses: devopslecturer/awmsc2022/.github/workflows/pytest.yml@Flask_Initial_Setup
 
   performance-testing:
