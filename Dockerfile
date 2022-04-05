@@ -6,7 +6,7 @@ COPY . /wwa
 # switch working directory
 WORKDIR /wwa
 
-RUN pip install -r requirements.txt
+RUN pip3 install --upgrade pip &&\ pip3 install -r requirements.txt
 
 EXPOSE 5000
 
