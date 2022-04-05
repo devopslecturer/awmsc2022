@@ -12,5 +12,5 @@ jobs:
 
   job2:
     needs: job1
-    uses: ./.github/workflows/aws.yaml
+    uses: ./.github/workflows/aws.yml
  
