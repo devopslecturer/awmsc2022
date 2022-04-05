@@ -232,4 +232,3 @@ The teams current story point velocity is "<Choose the number!>".
 	
 	
 	
-	
