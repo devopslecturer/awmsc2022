@@ -7,19 +7,46 @@ on:
     branches: [ docker_CD ]
 
 jobs:
+  static-testing:
+    uses: devopslecturer/awmsc2022/.github/workflows/SonarQube.yml@Flask_Initial_Setup
+    secrets:
+      SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+      SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
+
+  unit-testing:
+    needs: static-testing
+    uses: devopslecturer/awmsc2022/.github/workflows/pytest.yml@Flask_Initial_Setup
+
+  performance-testing:
+    needs: unit-testing
+    uses: devopslecturer/awmsc2022/.github/workflows/Jmeter.yml@Flask_Initial_Setup
+
+  security-testing:
+    needs: security-testing
+    uses: devopslecturer/awmsc2022/.github/workflows/snyk.yml@Flask_Initial_Setup
+    secrets:
+      SNYK_API_KEY: ${{ secrets.SNYK_API_KEY }}
+
   docker-CI:
-    uses: devopslecturer/awmsc2022/.github/workflows/docker-image-build-push.yml@docker_CD
+    uses: devopslecturer/awmsc2022/.github/workflows/docker-image-build-push.yml@Flask_Initial_Setup
     secrets:
       DOCKER_HUB_USERNAME: ${{ secrets.DOCKER_HUB_USERNAME }}
       DOCKER_HUB_ACCESS_TOKEN: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
            
   deploy:
     needs: docker-CI
-    uses: devopslecturer/awmsc2022/.github/workflows/aws.yml@docker_CD
+    uses: devopslecturer/awmsc2022/.github/workflows/aws.yml@Flask_Initial_Setup
     secrets:
       AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
       AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       DOCKER_HUB_USERNAME: ${{ secrets.DOCKER_HUB_USERNAME }}
       DOCKER_HUB_ACCESS_TOKEN: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
       KUBECONFIG: ${{ secrets.KUBECONFIG }}
+  
+  document:
+    needs: deploy
+    uses: devopslecturer/awmsc2022/.github/workflows/Sphinx.yml@Flask_Initial_Setup
+    secrets:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    
 

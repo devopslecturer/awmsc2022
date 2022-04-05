@@ -2,13 +2,9 @@ name: Security Testing workflow for Python using Snyk
 
 on:
   workflow_call:
-    inputs:
-      username:
-        required: false
-        type: string
     secrets:
-      token:
-        required: false
+      SNYK_API_KEY:
+        required: true
         
 jobs:
   security:

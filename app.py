@@ -8,9 +8,9 @@ app.py code is shown here. This is a functionality to test the sphinx for auto d
 app = Flask(__name__)
 mysql = MySQL(app)
 app.config['MYSQL_HOST'] = 'sql4.freemysqlhosting.net'
-app.config['MYSQL_USER'] = 'sql4483371'
-app.config['MYSQL_PASSWORD'] = 'DQa8y6xrSQ'
-app.config['MYSQL_DB'] = 'sql4483371'
+app.config['MYSQL_USER'] = 'sql4483888'
+app.config['MYSQL_PASSWORD'] = 'qVFgSDccKM'
+app.config['MYSQL_DB'] = 'sql4483888'
 app.config['MYSQL_PORT'] = 3306
 
 # route to home page when / is present in url
@@ -30,22 +30,22 @@ def index():
     return render_template('home.html')
 
 # route to home page when url points to "/home"
-# @app.route('/home.html')
-# def load_home_page():
+@app.route('/home.html')
+def load_home_page():
 
-#     """
+    """
 
-#     Description : The "load_home_page" function is used to call the Homepage from python app.py
+     Description : The "load_home_page" function is used to call the Homepage from python app.py
 
-#     Return File : home.html
+     Return File : home.html
     
-#     Return Type : HTML
+     Return Type : HTML
 
-#     """
+     """
+     
+    return render_template('home.html')
 
-#     return render_template('home.html')
 
-# route to login_signup page when url points to "/home"
 @app.route('/login_signup')
 def load_login_page():
 

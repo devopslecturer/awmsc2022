@@ -5,12 +5,8 @@ name: Pytest check
 
 on:
   workflow_call:
-    inputs:
-      username:
-        required: false
-        type: string
     secrets:
-      token:
+      SOME_SECRET:
         required: false
 
 jobs:

@@ -5,12 +5,8 @@ name: Jmeter for performance testing
 # Controls when the workflow will run
 on:
   workflow_call:
-    inputs:
-      username:
-        required: false
-        type: string
     secrets:
-      token:
+      SOME_SECRET:
         required: false
 
   # Allows you to run this workflow manually from the Actions tab

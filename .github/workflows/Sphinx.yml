@@ -1,13 +1,11 @@
 name: Sphinx workflow for autodocumentation
+
 on:
   workflow_call:
-    inputs:
-      username:
-        required: false
-        type: string
     secrets:
-      token:
-        required: false
+      GITHUB_TOKEN:
+        required: true
+
 jobs:
   build:
     runs-on: ubuntu-latest

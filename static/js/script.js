@@ -148,14 +148,16 @@ su_pass_re.addEventListener("input", () => {
 
 document.getElementById("sign-up-btn").addEventListener("click", () => {
   console.log("entered");
+  // if (
+  //   document.getElementById("su-name-check").style.display == "" ||
+  //   document.getElementById("su-name-check").style.display == "none"
+  // ) {
+  //   document.getElementById("error-msg-signup").innerHTML =
+  //     "<i class='fa fa-times-circle'></i> Please enter a valid username.";
+  //   document.getElementById("error-msg-signup").style.display = "block";
+  // } else if (
+
   if (
-    document.getElementById("su-name-check").style.display == "" ||
-    document.getElementById("su-name-check").style.display == "none"
-  ) {
-    document.getElementById("error-msg-signup").innerHTML =
-      "<i class='fa fa-times-circle'></i> Please enter a valid username.";
-    document.getElementById("error-msg-signup").style.display = "block";
-  } else if (
     document.getElementById("su-mail-check").style.display == "" ||
     document.getElementById("su-mail-check").style.display == "none"
   ) {
