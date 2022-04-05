@@ -1,7 +1,6 @@
 name: Sphinx workflow for autodocumentation
 
 on:
-  on:
   push:
     branches: Develop
   pull_request:
