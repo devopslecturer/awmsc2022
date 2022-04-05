@@ -13,8 +13,7 @@ jobs:
     secrets:
       DOCKER_HUB_USERNAME: ${{ secrets.DOCKER_HUB_USERNAME }}
       DOCKER_HUB_ACCESS_TOKEN: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
-      
-          
+           
   deploy:
     needs: docker-CI
     uses: devopslecturer/awmsc2022/.github/workflows/aws.yml@docker_CD
