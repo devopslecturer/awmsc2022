@@ -39,7 +39,8 @@ const su_pass = document.getElementById("su-pass");
 const su_pass_re = document.getElementById("su-pass-re");
 
 var regName = /^[a-zA-Z]+ [a-zA-Z]+$/;
-var regMail = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+var regMail =
+  /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
 su_name.addEventListener("input", () => {
   if (regName.test(su_name.value)) {
@@ -109,7 +110,7 @@ function scorePassword(pass) {
     digits: /\d/.test(pass),
     lower: /[a-z]/.test(pass),
     upper: /[A-Z]/.test(pass),
-    nonWords: /\W/.test(pass)
+    nonWords: /\W/.test(pass),
   };
 
   var variationCount = 0;
@@ -146,6 +147,7 @@ su_pass_re.addEventListener("input", () => {
 });
 
 document.getElementById("sign-up-btn").addEventListener("click", () => {
+  console.log("entered");
   if (
     document.getElementById("su-name-check").style.display == "" ||
     document.getElementById("su-name-check").style.display == "none"

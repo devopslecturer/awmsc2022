@@ -30,20 +30,20 @@ def index():
     return render_template('home.html')
 
 # route to home page when url points to "/home"
-@app.route('/home.html')
-def load_home_page():
+# @app.route('/home.html')
+# def load_home_page():
 
-    """
+#     """
 
-    Description : The "load_home_page" function is used to call the Homepage from python app.py
+#     Description : The "load_home_page" function is used to call the Homepage from python app.py
 
-    Return File : home.html
+#     Return File : home.html
     
-    Return Type : HTML
+#     Return Type : HTML
 
-    """
+#     """
 
-    return render_template('home.html')
+#     return render_template('home.html')
 
 # route to login_signup page when url points to "/home"
 @app.route('/login_signup')
@@ -63,7 +63,7 @@ def load_login_page():
 
 # route to check whether login or signup to render depending on method call
 @app.route('/login_signup_check', methods = ['GET','POST'])
-def login_signup():
+def login_signup(): 
     
     """
 
@@ -90,7 +90,7 @@ def login_signup():
         else: 
             mysql.connection.commit()
             cursor.close()
-            return '<h1>not matched</h1>'
+            return render_template('error.html')
             
     """
 
@@ -159,6 +159,25 @@ def load_payment_page():
     """
  
     return render_template('payment.html')
+
+    # route to bookings page 
+@app.route('/paymentsucess.html')
+def load_payment_success_page():
+
+    """
+
+    Description : The "load_payment_success_page" function is used to call the payment success page from python app.py
+
+    Return File : paymentsuccess.html
+    
+    Return Type : HTML
+
+    """
+    cursor = mysql.connection.cursor()
+    cursor.execute('''INSERT INTO payment_details (pay_id, pay_status) VALUES ('default', 'completed') ''')
+    mysql.connection.commit()
+    cursor.close()
+    return render_template('paymentsucess.html')
 
 if __name__ == '__main__':
     app.debug = True

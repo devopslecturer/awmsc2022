@@ -9,7 +9,7 @@ on:
     secrets:
       token:
         required: false
-        
+
 jobs:
   build:
     name: Build
