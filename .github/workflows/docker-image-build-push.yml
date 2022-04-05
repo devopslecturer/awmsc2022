@@ -2,13 +2,11 @@ name: Docker Image CI
 
 on:
   workflow_call:
-    inputs:
-      username:
-        required: false
-        type: string
     secrets:
-      token:
-        required: false
+      DOCKER_HUB_USERNAME:
+        required: true
+      DOCKER_HUB_ACCESS_TOKEN:
+        required: true
         
 jobs:
 
