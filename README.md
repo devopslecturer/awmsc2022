@@ -99,6 +99,7 @@ Refer to Blackboard for the most up to date information on deadlines.
     DC Slack: https://app.slack.com/client/T84LE6L6R/C02PELNHHD4
     Jira: https://weekendadventure.atlassian.net/jira/software/projects/WA/boards/1
     GitHub: https://github.com/devopslecturer/awmsc2022.git
+    GitWiki: https://github.com/devopslecturer/awmsc2022.wiki.git
     Project close out presentation: 
 
 ### More Information
