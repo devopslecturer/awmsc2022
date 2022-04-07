@@ -208,7 +208,7 @@ These are the current Risks on the project, re-aligned on a weekly basis
     Jira will be used for task management and planning.
     Each member of the team will work one or two per week, unless they are on vacation.
 
-## Branching Strategy
+## Branching Strategy.
 Master Branch
 	
 	-Develop branch
