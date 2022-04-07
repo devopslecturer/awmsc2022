@@ -40,7 +40,7 @@ Member Name							Date
 * Sreejith Jayasree Purushothaman				28/02/2022 to 06/03/2022
 * Snehal Shirsath						07/03/2022 to 13/03/2022
 * Muhammed Shafeeq					14/03/2022 to 20/03/2022
-* Snehal Khairnar						21/03/2021 to 27/03/2021
+* Snehal Khairnar						21/03/2022 to 27/03/2022
 * Snehal Shirsath						28/03/2022 to 03/04/2022
 * Anup Jacob						04/04/2022 to 08/04/2022
 
@@ -55,15 +55,15 @@ Member Name							Date
 * Snehal Shirsath						17/01/2022 to 23/01/2022
 * Muhammed Shafeeq					24/01/2022 to 30/01/2022
 * Anup Jacob						31/01/2022 to 06/02/2022
-* Snehal Khairnar						07/02/2022 to 13/02/2022* 
-* Sreejith Jayasree Purushothaman				14/02/2022 to 20/02/20* 22
-* Snehal Shirsath						21/02/2022 to 27/02/20* 22
-* Varnit Rohilla						28/02/2022 to 06/03/20* 22
+* Snehal Khairnar						07/02/2022 to 13/02/2022
+* Sreejith Jayasree Purushothaman				14/02/2022 to 20/02/2022
+* Snehal Shirsath						21/02/2022 to 27/02/2022
+* Varnit Rohilla						28/02/2022 to 06/03/2022
 * Muhammed Shafeeq					07/03/2022 to 13/03/2022
 * Varnit Rohilla						14/03/2022 to 20/03/2022
-* Anup Jacob						21/03/2021 to 27/03/2021* 
-* Sreejith Jayasree Purushothaman				28/03/2022 to 03* /04/2022
-* Snehal Shirsath						04/04/2022 to 08* /04/202* * * 2
+* Anup Jacob						21/03/2022 to 27/03/2022 
+* Sreejith Jayasree Purushothaman				28/03/2022 to 03/04/2022
+* Snehal Shirsath						04/04/2022 to 08/04/2022
 
 ### Team Members
 * Snehal Shirsath
